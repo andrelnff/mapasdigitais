@@ -1,0 +1,52 @@
+.button-temas{
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    top: 20px;
+
+    left: -100px;
+    width: fit-content;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    text-justify: center;
+    background-color: #0455BF;
+    transition: .5s;
+    outline: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.41);
+    padding: auto;
+
+}
+
+.button-temas > p{  
+    margin-top: 8px;
+    text-align: center;
+    color: white;
+    margin-right: 8px;
+    margin-left: -2px;
+
+}
+
+.button-temas.active{
+    left:80px;
+}
+
+.button-temas svg{
+    margin: 5px;
+    position: relative;
+    top: 3px;
+    font-size: 25px;
+    color: white;
+}
+.button-temas:hover{
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.49);
+    background-color: #0468BF;
+    transition: .2s;
+}
+.button-temas:active{
+    background-color: #0468BF;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.49);
+    transform: translateY(2px);
+
+}

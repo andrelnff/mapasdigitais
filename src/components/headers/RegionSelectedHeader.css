@@ -1,0 +1,17 @@
+
+
+.full-layout{
+    transition: 1s;
+    width: 100vw;
+    height: calc(100vh - 60px);
+    position: absolute;
+    left: -100vw;
+    overflow: hidden;
+}
+
+.full-layout.active{
+    left: 0;
+    transition: 1s;
+}
+
+

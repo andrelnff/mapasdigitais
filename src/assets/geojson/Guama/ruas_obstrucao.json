@@ -1,0 +1,1665 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4705193,
+                        -1.4638696
+                    ],
+                    [
+                        -48.4687332,
+                        -1.4638155
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40546088",
+                "NOME": "PASSAGEM ISABEL",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4728486,
+                        -1.4665202
+                    ],
+                    [
+                        -48.4728755954102,
+                        -1.46571249766514
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "344887379",
+                "NOME": "PASSAGEM SANTA HELENA",
+                "PAVIMENTO": "NÃO PAVIMENTADO",
+                "ESTADO": "PRECISA DE REPAROS; COM MUITOS BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4728611977054,
+                        -1.46570769999992
+                    ],
+                    [
+                        -48.4721360969406,
+                        -1.4657233023351
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "352169057",
+                "NOME": "PASSAGEM SÃO CRISTÓVÃO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM MUITOS BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4667572369034,
+                        -1.46286419023339
+                    ],
+                    [
+                        -48.4667097038237,
+                        -1.462847509316
+                    ],
+                    [
+                        -48.4664381984707,
+                        -1.46281421863209
+                    ],
+                    [
+                        -48.4660015,
+                        -1.46286670000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "354703098",
+                "NOME": "VILA RAMOS",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4614471,
+                        -1.4625054
+                    ],
+                    [
+                        -48.4614632,
+                        -1.46254490000001
+                    ],
+                    [
+                        -48.4614927,
+                        -1.46261399999999
+                    ],
+                    [
+                        -48.4615517,
+                        -1.4627259
+                    ],
+                    [
+                        -48.4617052,
+                        -1.46297459999999
+                    ],
+                    [
+                        -48.4619238,
+                        -1.4633051
+                    ],
+                    [
+                        -48.4620378383196,
+                        -1.46350334970281
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "360779635",
+                "NOME": "PASSAGEM REDENÇÃO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇAO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4622806,
+                        -1.4638863
+                    ],
+                    [
+                        -48.4622973,
+                        -1.4638903
+                    ],
+                    [
+                        -48.4623151,
+                        -1.46389100000001
+                    ],
+                    [
+                        -48.4623392,
+                        -1.4638876
+                    ],
+                    [
+                        -48.462528,
+                        -1.4638504
+                    ],
+                    [
+                        -48.4626346,
+                        -1.463839
+                    ],
+                    [
+                        -48.4626802,
+                        -1.46383939999999
+                    ],
+                    [
+                        -48.462715300765,
+                        -1.46384039999987
+                    ],
+                    [
+                        -48.4629279030597,
+                        -1.46386520699359
+                    ],
+                    [
+                        -48.4630398084135,
+                        -1.46386941631907
+                    ],
+                    [
+                        -48.4631663007648,
+                        -1.46387291398794
+                    ],
+                    [
+                        -48.463299013298,
+                        -1.46387150902876
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "360779645",
+                "NOME": "PASSAGEM SAMARINA",
+                "PAVIMENTO": "NÃO PAVIMENTADO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO; ALAGA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.467311,
+                        -1.4573307
+                    ],
+                    [
+                        -48.4672864,
+                        -1.4578616
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "372550649",
+                "NOME": "VILA AURORA",
+                "PAVIMENTO": "NÃO PAVIMENTADO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4633096,
+                        -1.46320469999999
+                    ],
+                    [
+                        -48.4634936,
+                        -1.46328299999999
+                    ],
+                    [
+                        -48.4637001,
+                        -1.4633802
+                    ],
+                    [
+                        -48.4638899,
+                        -1.46345659999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "377055305",
+                "NOME": "PASSAGEM LIBERATO DE CASTRO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4641680682612,
+                        -1.46389020971756
+                    ],
+                    [
+                        -48.4642003,
+                        -1.46355849999999
+                    ],
+                    [
+                        -48.4642084,
+                        -1.4633668
+                    ],
+                    [
+                        -48.4642064,
+                        -1.46329240000001
+                    ],
+                    [
+                        -48.464201,
+                        -1.4632327
+                    ],
+                    [
+                        -48.4641832,
+                        -1.4631301
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "377055306",
+                "NOME": "PASSAGEM SANTIAGO",
+                "PAVIMENTO": "NÃO PAVIMENTADO",
+                "ESTADO": "PRECISA DE REPAROS; COM MUITOS BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO E ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4717494,
+                        -1.46745040000001
+                    ],
+                    [
+                        -48.4717588,
+                        -1.4671474
+                    ],
+                    [
+                        -48.4717441,
+                        -1.46688600000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "394514607",
+                "NOME": "PASSAGEM VALDIR DA COSTA",
+                "PAVIMENTO": "CONCRETO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4719157652029,
+                        -1.46498234276163
+                    ],
+                    [
+                        -48.4718439497367,
+                        -1.46418835627633
+                    ],
+                    [
+                        -48.4718088643418,
+                        -1.46355001022456
+                    ],
+                    [
+                        -48.4717878130968,
+                        -1.46309404864834
+                    ],
+                    [
+                        -48.4717974598375,
+                        -1.46285778080139
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "665487988",
+                "NOME": "TRAVESSA 14 DE ABRIL",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "ALAGADO; OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4626165,
+                        -1.46166140000001
+                    ],
+                    [
+                        -48.4626809,
+                        -1.461703
+                    ],
+                    [
+                        -48.4627292,
+                        -1.46175130000001
+                    ],
+                    [
+                        -48.4627694,
+                        -1.46181289999999
+                    ],
+                    [
+                        -48.4629434377272,
+                        -1.46189591442693
+                    ],
+                    [
+                        -48.4631684936671,
+                        -1.46195401649819
+                    ],
+                    [
+                        -48.4632163123295,
+                        -1.46202477161807
+                    ],
+                    [
+                        -48.4633883,
+                        -1.4620308
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "695030658",
+                "NOME": "PASSAGEM SÃO JORGE",
+                "PAVIMENTO": "CONCRETO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "BAIXADA; OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4633829,
+                        -1.4623023
+                    ],
+                    [
+                        -48.4633856,
+                        -1.46211390000001
+                    ],
+                    [
+                        -48.4633883,
+                        -1.4620308
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "695030659",
+                "NOME": "PASSAGEM SÃO JORGE",
+                "PAVIMENTO": "CONCRETO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "BAIXADA; OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4626165,
+                        -1.46166140000001
+                    ],
+                    [
+                        -48.4624679,
+                        -1.46192879999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "695102169",
+                "NOME": "PASSAGEM SÃO JORGE",
+                "PAVIMENTO": "NÃO PAVIMENTADO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "BAIXADA; OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4625065,
+                        -1.4615622
+                    ],
+                    [
+                        -48.4625655,
+                        -1.4616078
+                    ],
+                    [
+                        -48.4626165,
+                        -1.46166140000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "695102170",
+                "NOME": "PASSAGEM SÃO JORGE",
+                "PAVIMENTO": "CONCRETO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "BAIXADA; OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4655793,
+                        -1.4621146
+                    ],
+                    [
+                        -48.465612,
+                        -1.462167
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "742515525",
+                "NOME": "TRAVESSA BARÃO DE MAMORÉ",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4620787,
+                        -1.4556127
+                    ],
+                    [
+                        -48.4620653,
+                        -1.45579729999999
+                    ],
+                    [
+                        -48.4620380015296,
+                        -1.4559586930571
+                    ],
+                    [
+                        -48.4618943030594,
+                        -1.45651519999983
+                    ],
+                    [
+                        -48.4618058,
+                        -1.45693559999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40532185",
+                "NOME": "TRAVESSA GUERRA PASSOS",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4639563,
+                        -1.4614644
+                    ],
+                    [
+                        -48.4636305961758,
+                        -1.46134150465136
+                    ],
+                    [
+                        -48.4634068999997,
+                        -1.46127120930222
+                    ],
+                    [
+                        -48.4631681022939,
+                        -1.46121600930192
+                    ],
+                    [
+                        -48.4629271007647,
+                        -1.46116890930197
+                    ],
+                    [
+                        -48.4626705999998,
+                        -1.46112380930142
+                    ],
+                    [
+                        -48.4624435977054,
+                        -1.46107841395077
+                    ],
+                    [
+                        -48.4621442015304,
+                        -1.46103912092791
+                    ],
+                    [
+                        -48.4617688000001,
+                        -1.4610484139511
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40532196",
+                "NOME": "PASSAGEM PADRE MÁRIO ADALBERTO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.465554,
+                        -1.46225370000001
+                    ],
+                    [
+                        -48.4653811007646,
+                        -1.46226011396636
+                    ],
+                    [
+                        -48.4653063030589,
+                        -1.46223942560505
+                    ],
+                    [
+                        -48.4652166068836,
+                        -1.46223132793295
+                    ],
+                    [
+                        -48.4651045130022,
+                        -1.46223152327712
+                    ],
+                    [
+                        -48.46502630153,
+                        -1.46222451396641
+                    ],
+                    [
+                        -48.4649244999999,
+                        -1.4622179116382
+                    ],
+                    [
+                        -48.4648373999999,
+                        -1.46223201163864
+                    ],
+                    [
+                        -48.4647327007646,
+                        -1.46227580698326
+                    ],
+                    [
+                        -48.4646278022947,
+                        -1.46235049999983
+                    ],
+                    [
+                        -48.4645247015297,
+                        -1.46244299999987
+                    ],
+                    [
+                        -48.4644297,
+                        -1.46254489999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40532199",
+                "NOME": "PASSAGEM PAES DE SOUZA",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO E ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4626353,
+                        -1.4631442
+                    ],
+                    [
+                        -48.4624019,
+                        -1.4628982
+                    ],
+                    [
+                        -48.4623282,
+                        -1.4628305
+                    ],
+                    [
+                        -48.4621491,
+                        -1.46268569999999
+                    ],
+                    [
+                        -48.4620788984702,
+                        -1.46263340000012
+                    ],
+                    [
+                        -48.4619358999999,
+                        -1.46252980931351
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40532271",
+                "NOME": "PASSAGEM SÃO SEBASTIÃO",
+                "PAVIMENTO": "NÃO PAVIMENTADO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4632844,
+                        -1.46286669999999
+                    ],
+                    [
+                        -48.4629169,
+                        -1.46301279999999
+                    ],
+                    [
+                        -48.4626386665629,
+                        -1.46314262909724
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40532270",
+                "NOME": "PASSAGEM MAPASA",
+                "PAVIMENTO": "NÃO PAVIMENTADO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4728755954102,
+                        -1.46571249766514
+                    ],
+                    [
+                        -48.4729093892914,
+                        -1.46499230000056
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "344887379",
+                "NOME": "PASSAGEM SANTA HELENA",
+                "PAVIMENTO": "NÃO PAVIMENTADO",
+                "ESTADO": "PRECISA DE REPAROS; COM MUITOS BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4721360969406,
+                        -1.4657233023351
+                    ],
+                    [
+                        -48.4713934,
+                        -1.46565259999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "352169057",
+                "NOME": "PASSAGEM SÃO CRISTÓVÃO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM MUITOS BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4719150060547,
+                        -1.46498242585958
+                    ],
+                    [
+                        -48.471876925353,
+                        -1.46498041483543
+                    ],
+                    [
+                        -48.4715136680534,
+                        -1.46496393103694
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "344887381",
+                "NOME": "RUA SILVA CASTRO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM MUITOS BURACOS",
+                "OUTROS": "ALAGADO; OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                -48.4722176011134,
+                                -1.46499841366002
+                            ],
+                            [
+                                -48.4725513,
+                                -1.4650012
+                            ],
+                            [
+                                -48.4728422,
+                                -1.4649923
+                            ],
+                            [
+                                -48.4729061318749,
+                                -1.46499097384981
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                -48.4722175807075,
+                                -1.46499840466499
+                            ],
+                            [
+                                -48.4719150060547,
+                                -1.46498242585958
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "344887381",
+                "NOME": "RUA SILVA CASTRO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM MUITOS BURACOS",
+                "OUTROS": "ALAGADO; OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4715136680534,
+                        -1.46496393103694
+                    ],
+                    [
+                        -48.4705125,
+                        -1.46491850000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "344887381",
+                "NOME": "RUA SILVA CASTRO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM MUITOS BURACOS",
+                "OUTROS": "ALAGADO; OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4705125,
+                        -1.46491850000001
+                    ],
+                    [
+                        -48.4699141364395,
+                        -1.46489894041745
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "344887381",
+                "NOME": "RUA SILVA CASTRO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM MUITOS BURACOS",
+                "OUTROS": "ACÚMULO DE ÁGUA EM VALAS; OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4659908171213,
+                        -1.46217376773877
+                    ],
+                    [
+                        -48.4656743,
+                        -1.46216769999999
+                    ],
+                    [
+                        -48.465612,
+                        -1.462167
+                    ],
+                    [
+                        -48.465610997616,
+                        -1.46216698834438
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "536481097",
+                "NOME": "RUA PAES DE SOUZA",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO; ALAGA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4656168966268,
+                        -1.45983122316615
+                    ],
+                    [
+                        -48.4656009,
+                        -1.4608895
+                    ],
+                    [
+                        -48.4655864,
+                        -1.4611186
+                    ],
+                    [
+                        -48.465575,
+                        -1.4619574
+                    ],
+                    [
+                        -48.4655793,
+                        -1.4621146
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "344887376",
+                "NOME": "TRAVESSA BARÃO DE MAMORÉ",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4656962,
+                        -1.4572147
+                    ],
+                    [
+                        -48.4656749,
+                        -1.4581005
+                    ],
+                    [
+                        -48.4656169,
+                        -1.45983099999999
+                    ],
+                    [
+                        -48.4656168966268,
+                        -1.45983122316615
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "344887376",
+                "NOME": "TRAVESSA BARÃO DE MAMORÉ",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4615369,
+                        -1.4598033
+                    ],
+                    [
+                        -48.4618011,
+                        -1.45977109999999
+                    ],
+                    [
+                        -48.4620707,
+                        -1.459747
+                    ],
+                    [
+                        -48.4623241,
+                        -1.45972010000001
+                    ],
+                    [
+                        -48.4625173,
+                        -1.45968659999999
+                    ],
+                    [
+                        -48.4626648,
+                        -1.4596464
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40532193",
+                "NOME": "PASSAGEM NAPOLEÃO LAUREANO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4626386665629,
+                        -1.46314262909724
+                    ],
+                    [
+                        -48.4626353,
+                        -1.4631442
+                    ],
+                    [
+                        -48.4624556,
+                        -1.4632568
+                    ],
+                    [
+                        -48.4620385,
+                        -1.4635045
+                    ],
+                    [
+                        -48.4620374424457,
+                        -1.46350535675283
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40532270",
+                "NOME": "PASSAGEM MAPASA",
+                "PAVIMENTO": "NÃO PAVIMENTADO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4620378383196,
+                        -1.46350334970281
+                    ],
+                    [
+                        -48.4620385,
+                        -1.4635045
+                    ],
+                    [
+                        -48.4621304,
+                        -1.4636698
+                    ],
+                    [
+                        -48.4622202,
+                        -1.4638199
+                    ],
+                    [
+                        -48.4622631,
+                        -1.46387619999999
+                    ],
+                    [
+                        -48.4622806,
+                        -1.4638863
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "360779635",
+                "NOME": "PASSAGEM SAMARINA",
+                "PAVIMENTO": "NÃO PAVIMENTADO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO; ALAGA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.463285,
+                        -1.4623177
+                    ],
+                    [
+                        -48.4632193,
+                        -1.46231769999999
+                    ],
+                    [
+                        -48.4631127,
+                        -1.46230090000001
+                    ],
+                    [
+                        -48.462986,
+                        -1.4622708
+                    ],
+                    [
+                        -48.4628559,
+                        -1.4622232
+                    ],
+                    [
+                        -48.4627707,
+                        -1.4621602
+                    ],
+                    [
+                        -48.4627131,
+                        -1.4621146
+                    ],
+                    [
+                        -48.4626527,
+                        -1.46206899999999
+                    ],
+                    [
+                        -48.462591,
+                        -1.46202139999999
+                    ],
+                    [
+                        -48.4625072,
+                        -1.461957
+                    ],
+                    [
+                        -48.4624679,
+                        -1.46192879999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40533009",
+                "NOME": "PASSAGEM CARAPARU",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4618158007648,
+                        -1.46186601163466
+                    ],
+                    [
+                        -48.4614600635388,
+                        -1.46184338454549
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40533009",
+                "NOME": "PASSAGEM CARAPARU",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO; ACÚMULO DE AGUA EM VALAS E POÇAS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4624679,
+                        -1.46192879999999
+                    ],
+                    [
+                        -48.4624181,
+                        -1.4619188
+                    ],
+                    [
+                        -48.4623475,
+                        -1.4619115
+                    ],
+                    [
+                        -48.4618158007648,
+                        -1.46186601163466
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40533009",
+                "NOME": "PASSAGEM CARAPARU",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4646162077914,
+                        -1.46330368368446
+                    ],
+                    [
+                        -48.4646127,
+                        -1.4633031
+                    ],
+                    [
+                        -48.4644122,
+                        -1.46325279999999
+                    ],
+                    [
+                        -48.464252,
+                        -1.4631784
+                    ],
+                    [
+                        -48.4641832,
+                        -1.4631301
+                    ],
+                    [
+                        -48.4641815506024,
+                        -1.46312845748925
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40532298",
+                "NOME": "PASSAGEM SÃO JOSÉ",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO E ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4641815506024,
+                        -1.46312845748925
+                    ],
+                    [
+                        -48.4640395,
+                        -1.462987
+                    ],
+                    [
+                        -48.4639388,
+                        -1.462852
+                    ],
+                    [
+                        -48.4638499,
+                        -1.46270910000001
+                    ],
+                    [
+                        -48.4638235,
+                        -1.4626334
+                    ],
+                    [
+                        -48.4638135,
+                        -1.4625696
+                    ],
+                    [
+                        -48.4638114,
+                        -1.462498
+                    ],
+                    [
+                        -48.4638133,
+                        -1.46237349999999
+                    ],
+                    [
+                        -48.4638168,
+                        -1.46225940000001
+                    ],
+                    [
+                        -48.4638188,
+                        -1.4622352
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40532298",
+                "NOME": "PASSAGEM SÃO JOSÉ",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "BOAS CONDIÇOES",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO E ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4638222299413,
+                        -1.46223516740562
+                    ],
+                    [
+                        -48.4638188,
+                        -1.4622352
+                    ],
+                    [
+                        -48.463629,
+                        -1.462248
+                    ],
+                    [
+                        -48.4635546,
+                        -1.46225999999999
+                    ],
+                    [
+                        -48.4634795,
+                        -1.4622708
+                    ],
+                    [
+                        -48.4633840340696,
+                        -1.46230193019474
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40533009",
+                "NOME": "PASSAGEM CARAPARU",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4633840340696,
+                        -1.46230193019474
+                    ],
+                    [
+                        -48.4633829,
+                        -1.4623023
+                    ],
+                    [
+                        -48.463338,
+                        -1.462315
+                    ],
+                    [
+                        -48.463285,
+                        -1.4623177
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40533009",
+                "NOME": "PASSAGEM CARAPARU",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS; COM BURACOS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4705335498073,
+                        -1.46329114226675
+                    ],
+                    [
+                        -48.4702709404083,
+                        -1.46326111749633
+                    ],
+                    [
+                        -48.469955599645,
+                        -1.46326959705914
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME": "VILA SÃO JOÃO",
+                "PAVIMENTO": "NÃO PAVIMENTADO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "ACÚMULO DE ÁGUA EM VALAS; OBSTRUÇÃO POR VEGETAÇÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.464966475479,
+                        -1.46390475245088
+                    ],
+                    [
+                        -48.4649839,
+                        -1.46339729999999
+                    ],
+                    [
+                        -48.4649802,
+                        -1.4633768
+                    ],
+                    [
+                        -48.4649688,
+                        -1.4633654
+                    ],
+                    [
+                        -48.4649416,
+                        -1.46335600000001
+                    ],
+                    [
+                        -48.4647978,
+                        -1.46333389999999
+                    ],
+                    [
+                        -48.4646162077914,
+                        -1.46330368368446
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "40532298",
+                "NOME": "PASSAGEM SÃO JOSÉ",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR VEGETAÇÃO E ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4638899,
+                        -1.46345659999999
+                    ],
+                    [
+                        -48.463997825517,
+                        -1.46346819717342
+                    ],
+                    [
+                        -48.4640705125601,
+                        -1.46343132270156
+                    ],
+                    [
+                        -48.464206367512,
+                        -1.46330373390415
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME": "PASSAGEM LIBERATO DE CASTRO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "OBSTRUÇÃO POR ENTULHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4632844,
+                        -1.46286669999999
+                    ],
+                    [
+                        -48.4633096,
+                        -1.46320469999999
+                    ],
+                    [
+                        -48.4633078,
+                        -1.46338889999999
+                    ],
+                    [
+                        -48.4632990009356,
+                        -1.46387218653249
+                    ],
+                    [
+                        -48.4632985,
+                        -1.4638997
+                    ],
+                    [
+                        -48.4632974009022,
+                        -1.46393685999008
+                    ],
+                    [
+                        -48.4632964,
+                        -1.4639707
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "osm_id": "403548099",
+                "NOME": "TRAVESSA LIBERATO DE CASTRO",
+                "PAVIMENTO": "PAVIMENTADO; ASFALTO",
+                "ESTADO": "PRECISA DE REPAROS",
+                "OUTROS": "ACÚMULO DE ÁGUA EM VALAS; OBSTRUÇÃO POR ENTULHO"
+            }
+        }
+    ],
+    "properties": {
+        "stroke-color": "#232323",
+        "stroke-width": 6,
+        "z-index": 6,
+        "line-dash-pattern": [3,20],
+        "line-cap": "square",
+        "title": "Trecho obstruído (vegetação ou entulho)"
+    }
+}

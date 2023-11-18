@@ -1,0 +1,801 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3383991,
+                        -1.34618329999999
+                    ],
+                    [
+                        -48.3389258,
+                        -1.3465722
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "TRAVESSA DA ASSEMBLEIA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3364718,
+                        -1.3400302
+                    ],
+                    [
+                        -48.3355873215038,
+                        -1.34000413583067
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA LESTE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3355873215038,
+                        -1.34000413583067
+                    ],
+                    [
+                        -48.334646,
+                        -1.339956
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA LESTE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3357775,
+                        -1.3480531
+                    ],
+                    [
+                        -48.3353173,
+                        -1.34797689999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA QUINTA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3385548,
+                        -1.3478865
+                    ],
+                    [
+                        -48.3361789182984,
+                        -1.34648290300741
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA TREZE DE OUTUBRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3351593,
+                        -1.3501835
+                    ],
+                    [
+                        -48.333248,
+                        -1.3499393
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA PRIMEIRA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3336747,
+                        -1.3482529
+                    ],
+                    [
+                        -48.33374,
+                        -1.34785939999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "TRAVESSA 4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3336747,
+                        -1.3482529
+                    ],
+                    [
+                        -48.3347422,
+                        -1.3483843
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA QUARTA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3391185463113,
+                        -1.34515453488243
+                    ],
+                    [
+                        -48.3387615,
+                        -1.3456518
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM DA ASSEMBLEIA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3387615,
+                        -1.3456518
+                    ],
+                    [
+                        -48.3383991,
+                        -1.34618329999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM DA ASSEMBLEIA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3383991,
+                        -1.34618329999999
+                    ],
+                    [
+                        -48.337993,
+                        -1.3467566
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM DA ASSEMBLEIA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3362925,
+                        -1.34518259999999
+                    ],
+                    [
+                        -48.3363576442621,
+                        -1.34453615820362
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DA CERÂMICA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3408784413131,
+                        -1.34470790949744
+                    ],
+                    [
+                        -48.3405867993336,
+                        -1.34510820077245
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DA AZPA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3405867993336,
+                        -1.34510820077245
+                    ],
+                    [
+                        -48.3402778389467,
+                        -1.34550676061855
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DA AZPA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3402778389467,
+                        -1.34550676061855
+                    ],
+                    [
+                        -48.3400457722884,
+                        -1.34583606588103
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DA AZPA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3400457722884,
+                        -1.34583606588103
+                    ],
+                    [
+                        -48.3396923352671,
+                        -1.34634558537583
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DA AZPA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3396923352671,
+                        -1.34634558537583
+                    ],
+                    [
+                        -48.3396116944283,
+                        -1.34645590553043
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DA AZPA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3396116944283,
+                        -1.34645590553043
+                    ],
+                    [
+                        -48.3389653,
+                        -1.34734120000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DA AZPA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3408483072843,
+                        -1.34375392786378
+                    ],
+                    [
+                        -48.3412384,
+                        -1.3441695
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM JAQUEIRA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3412384,
+                        -1.3441695
+                    ],
+                    [
+                        -48.3408784413131,
+                        -1.34470790949744
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DA AZPA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                -48.3402778389467,
+                                -1.34550676061855
+                            ],
+                            [
+                                -48.3398782,
+                                -1.34518300000001
+                            ],
+                            [
+                                -48.3397175598069,
+                                -1.34501253390381
+                            ],
+                            [
+                                -48.3390414446931,
+                                -1.34437204963667
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                -48.3387133,
+                                -1.3441398
+                            ],
+                            [
+                                -48.3390270704467,
+                                -1.34435843290563
+                            ],
+                            [
+                                -48.3390414446931,
+                                -1.34437204963667
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA SANTO ANTÔNIO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3389653,
+                        -1.34734120000001
+                    ],
+                    [
+                        -48.3382693,
+                        -1.3469296
+                    ],
+                    [
+                        -48.337993,
+                        -1.3467566
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA BO JESUS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3362925,
+                        -1.34518259999999
+                    ],
+                    [
+                        -48.3369429,
+                        -1.34541189999999
+                    ],
+                    [
+                        -48.3373936,
+                        -1.3456264
+                    ],
+                    [
+                        -48.3380359,
+                        -1.34597759999999
+                    ],
+                    [
+                        -48.3383991,
+                        -1.34618329999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "TRAVESAA DA ASSEMBLEIA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.337993,
+                        -1.3467566
+                    ],
+                    [
+                        -48.3372058,
+                        -1.346286
+                    ],
+                    [
+                        -48.3365741,
+                        -1.3459562
+                    ],
+                    [
+                        -48.3362469,
+                        -1.34582749999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA BOM JESUS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3391280199714,
+                        -1.3451611211866
+                    ],
+                    [
+                        -48.3395674,
+                        -1.3454784
+                    ],
+                    [
+                        -48.3400457722884,
+                        -1.34583606588103
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DA MANGUEIRA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3364061358026,
+                        -1.34394887949471
+                    ],
+                    [
+                        -48.3365442,
+                        -1.3439634
+                    ],
+                    [
+                        -48.337112,
+                        -1.3441206
+                    ],
+                    [
+                        -48.3377182,
+                        -1.3443469
+                    ],
+                    [
+                        -48.3383406,
+                        -1.3446498
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DA MANGUEIRA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3383406,
+                        -1.3446498
+                    ],
+                    [
+                        -48.3386844597009,
+                        -1.34485229153426
+                    ],
+                    [
+                        -48.3391280199714,
+                        -1.3451611211866
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DA MANGUEIRA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3394108573725,
+                        -1.343141544596
+                    ],
+                    [
+                        -48.3386858,
+                        -1.34281019999999
+                    ],
+                    [
+                        -48.3384061,
+                        -1.3426882
+                    ],
+                    [
+                        -48.3380882,
+                        -1.3425594
+                    ],
+                    [
+                        -48.3373237,
+                        -1.34227990000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "ALAMEDA DAS FLORES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3408784413131,
+                        -1.34470790949744
+                    ],
+                    [
+                        -48.3404977341866,
+                        -1.34436594516319
+                    ],
+                    [
+                        -48.3400218916067,
+                        -1.34395520284029
+                    ],
+                    [
+                        -48.3395890240403,
+                        -1.34377510870615
+                    ],
+                    [
+                        -48.3394380361899,
+                        -1.34375442714435
+                    ],
+                    [
+                        -48.3391064287415,
+                        -1.34363039099847
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM ESPERANÇA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3405867993336,
+                        -1.34510820077245
+                    ],
+                    [
+                        -48.340082487312,
+                        -1.3446940585871
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM BOM SOSSEGO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.3347422,
+                        -1.3483843
+                    ],
+                    [
+                        -48.3352935,
+                        -1.3484662
+                    ],
+                    [
+                        -48.3355919397524,
+                        -1.34855543237782
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA QUARTA"
+            }
+        }
+    ],
+    "properties": {
+        "stroke-color": "#232323",
+        "stroke-width": 6,
+        "z-index": 6,
+        "line-dash-pattern": [3,20],
+        "line-cap": "square",
+        "title": "Trecho obstruído (vegetação ou entulho)"
+    }
+}

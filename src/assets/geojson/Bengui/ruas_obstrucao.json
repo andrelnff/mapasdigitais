@@ -1,0 +1,621 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4465383,
+                        -1.37684659999999
+                    ],
+                    [
+                        -48.4466433,
+                        -1.3770243
+                    ],
+                    [
+                        -48.4467572,
+                        -1.3771165
+                    ],
+                    [
+                        -48.4468645,
+                        -1.37718350000001
+                    ],
+                    [
+                        -48.4470745,
+                        -1.37728900000001
+                    ],
+                    [
+                        -48.4472834,
+                        -1.377364
+                    ],
+                    [
+                        -48.4475426,
+                        -1.37743690000001
+                    ],
+                    [
+                        -48.4478556,
+                        -1.3774922
+                    ],
+                    [
+                        -48.4482892,
+                        -1.3774671
+                    ],
+                    [
+                        -48.4482896678069,
+                        -1.37746708037224
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM NOSSA SENHORA DAS GRAÇAS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4518837687177,
+                        -1.37262335270356
+                    ],
+                    [
+                        -48.451116,
+                        -1.37260130000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "ALAMEDA ESMERALDA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4547135517568,
+                        -1.37286807040781
+                    ],
+                    [
+                        -48.4552912,
+                        -1.3728651
+                    ],
+                    [
+                        -48.4552943740383,
+                        -1.37286520808935
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA IGUALDADE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4493162340372,
+                        -1.37590821518186
+                    ],
+                    [
+                        -48.4491820286109,
+                        -1.37592464376118
+                    ],
+                    [
+                        -48.4488118,
+                        -1.3759396
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM ALQUIDES SALES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4484282,
+                        -1.37864909999999
+                    ],
+                    [
+                        -48.4483653,
+                        -1.3780202
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM VALDIR ACATAUASSÚ NUNES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4497411,
+                        -1.37477159999999
+                    ],
+                    [
+                        -48.448627401783,
+                        -1.37464439716732
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA OLÁVIO NUNES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.449768,
+                        -1.37522350000001
+                    ],
+                    [
+                        -48.4498049,
+                        -1.374824
+                    ],
+                    [
+                        -48.4498029,
+                        -1.37480390000001
+                    ],
+                    [
+                        -48.4497962,
+                        -1.37478920000001
+                    ],
+                    [
+                        -48.4497795,
+                        -1.37477779999999
+                    ],
+                    [
+                        -48.4497411,
+                        -1.37477159999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM SANTA MARIA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4476044,
+                        -1.37510780000001
+                    ],
+                    [
+                        -48.4475552,
+                        -1.3745678
+                    ],
+                    [
+                        -48.4475551634612,
+                        -1.37456711602864
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM BENFICA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4497818,
+                        -1.37806560000001
+                    ],
+                    [
+                        -48.4498960505912,
+                        -1.37744576805261
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM SANTA MARIA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4486879,
+                        -1.37422409999999
+                    ],
+                    [
+                        -48.4495746,
+                        -1.37433999999999
+                    ],
+                    [
+                        -48.4496319,
+                        -1.3743287
+                    ],
+                    [
+                        -48.4496936,
+                        -1.3742951
+                    ],
+                    [
+                        -48.449798,
+                        -1.3741695
+                    ],
+                    [
+                        -48.449949,
+                        -1.3739955
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM SÃO JOSÉ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4464538,
+                        -1.3767801
+                    ],
+                    [
+                        -48.4465383,
+                        -1.37684659999999
+                    ],
+                    [
+                        -48.4466361,
+                        -1.3768658
+                    ],
+                    [
+                        -48.4467367,
+                        -1.3768862
+                    ],
+                    [
+                        -48.4468596,
+                        -1.37689809999999
+                    ],
+                    [
+                        -48.447154897666,
+                        -1.37688731104605
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM LAMEIRA BITTENCOURT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4502154,
+                        -1.37872670000001
+                    ],
+                    [
+                        -48.4496445486666,
+                        -1.37868732405022
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA MAGALHÃES BARATA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4483643996029,
+                        -1.37802020461513
+                    ],
+                    [
+                        -48.4479751,
+                        -1.3780222
+                    ],
+                    [
+                        -48.4475506,
+                        -1.37801639999999
+                    ],
+                    [
+                        -48.4472119,
+                        -1.37797760000001
+                    ],
+                    [
+                        -48.4469623,
+                        -1.37793199999999
+                    ],
+                    [
+                        -48.4467339,
+                        -1.37788939999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA SÃO BENTO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.447154897666,
+                        -1.37688731104605
+                    ],
+                    [
+                        -48.4471552,
+                        -1.3768873
+                    ],
+                    [
+                        -48.4475722,
+                        -1.37687969999999
+                    ],
+                    [
+                        -48.4475753806689,
+                        -1.3768796145235
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM LAMEIRA BITTENCOURT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4486741967352,
+                        -1.37513228770828
+                    ],
+                    [
+                        -48.4486735,
+                        -1.3751282
+                    ],
+                    [
+                        -48.4486448,
+                        -1.3749245
+                    ],
+                    [
+                        -48.4486248,
+                        -1.3746441
+                    ],
+                    [
+                        -48.4486251081931,
+                        -1.37464121993742
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "TRAVESSA MAJOR MIGUEL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4497672270658,
+                        -1.37522343269945
+                    ],
+                    [
+                        -48.449768,
+                        -1.37522350000001
+                    ],
+                    [
+                        -48.4506013,
+                        -1.37529230000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM BENFICA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4511278392619,
+                        -1.37192210085043
+                    ],
+                    [
+                        -48.4511276,
+                        -1.3719291
+                    ],
+                    [
+                        -48.4511276,
+                        -1.3721483
+                    ],
+                    [
+                        -48.4511275303389,
+                        -1.37215103444125
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "ALAMEDA OURO VERDE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4511275303389,
+                        -1.37215103444125
+                    ],
+                    [
+                        -48.4511201925921,
+                        -1.37243906546932
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "ALAMEDA OURO VERDE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4605508268826,
+                        -1.37764610405957
+                    ],
+                    [
+                        -48.460551,
+                        -1.37764610000001
+                    ],
+                    [
+                        -48.4610039,
+                        -1.37765520000001
+                    ],
+                    [
+                        -48.461097,
+                        -1.3776657
+                    ],
+                    [
+                        -48.4612083,
+                        -1.3776804
+                    ],
+                    [
+                        -48.4615074,
+                        -1.37773539999999
+                    ],
+                    [
+                        -48.4619108,
+                        -1.377773
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA ENGENHEIRO JOSÉ MACHADO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4498960505912,
+                        -1.37744576805261
+                    ],
+                    [
+                        -48.4498961,
+                        -1.3774455
+                    ],
+                    [
+                        -48.4500564,
+                        -1.3768244
+                    ],
+                    [
+                        -48.4500562945501,
+                        -1.37682039962409
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM SANTA MARIA"
+            }
+        }
+    ],
+    "properties": {
+        "stroke-color": "#232323",
+        "stroke-width": 6,
+        "z-index": 6,
+        "line-dash-pattern": [3,20],
+        "line-cap": "square",
+        "title": "Trecho obstruído (vegetação ou entulho)"
+    }
+}

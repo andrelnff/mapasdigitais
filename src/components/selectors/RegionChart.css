@@ -1,0 +1,100 @@
+.region-chart{
+    position: absolute ;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: wheat;
+    height: fit-content;
+    transform: translateX(-50%);
+    left: 50vw;
+    top: 80px;
+}
+
+.region-chart-header{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    gap: 10px;
+    z-index: 2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.region-chart-header p {
+    position: absolute;
+    left: 60px;
+}
+
+.region-chart-header span{
+    position: absolute;
+    width: 240px;
+    height: 30px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    right: 5px;
+    transition: 1s;
+}
+
+.region-chart-header span svg{
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    transform: rotate(90deg);
+    transition: 1s;
+}
+
+.region-chart-body{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    left: -25px;
+    height: 40px;
+    border-radius: 20px;
+    gap: 5px;
+    align-items: center;
+    transform-origin: top center;
+    scale: 0;
+    overflow: hidden;
+    z-index: -1;
+    transition: .5s;
+    padding: 10px;
+    border: 1px solid #0468BF;
+}
+
+.region-chart-body span{
+    display: flex;
+    position: relative;
+    height: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+    left: -5px;
+}
+
+.region-chart-body span p {
+    width: 200px;
+}
+
+/* Comportamento do Seletor Aberto */
+
+.region-chart-header.active span{
+    width: 30px;
+}
+.region-chart-header.active span svg{
+    transform: rotate(0deg);
+}
+
+.region-chart-body.active{
+    transform: translateY(50px);
+    height: auto;
+    max-height: 400px;
+    overflow-y: scroll;
+    scale: 1;
+    
+}

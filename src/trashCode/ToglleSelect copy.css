@@ -1,0 +1,62 @@
+.toglle-menu{
+    display: flex;
+    justify-content: center;
+    left: 20px;
+    top: 20px;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    transition: 1s;
+    z-index: 80;
+
+}
+
+.toglle-menu.active{
+    top:90px;
+}
+
+
+
+.btn-toglle , .btn-opt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    background-color: #0455BF;
+    transition: 1s;
+    outline: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.41);
+}
+
+.btn-toglle.active{
+    transform: rotate(315deg);
+}
+
+.btn-opt .btn-toglle, svg{
+    font-size: 25px;
+    transform: rotate(calc(var(--value) * (-360deg/-8)));
+}
+
+.btn-opt.active{
+    position: absolute;
+    transition-delay: calc(var(--value) * 0.1s);
+    transform: rotate(calc(var(--value) * (-360deg/8))) translateY(70px);
+}
+
+.btn-opt{
+    position: absolute;
+    z-index: 90;
+}
+
+.btn-opt:hover{
+    background-color: #0468BF;
+
+}
+

@@ -1,0 +1,108 @@
+.header{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 550px){
+
+    .header{
+        position: absolute;
+        width: 470px;
+        height: 50px;
+        z-index: 100;
+        background-color: white;
+        border-radius: 25px;
+        top: 10px;
+        transform: translateX(-50%);
+        left: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .toglle-menu{
+        z-index: 100;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        transition: .8s;
+        left: -10px;
+        top:5px
+    }
+
+    .back-btn{
+        display: flex;
+        position: absolute;
+        background-color: #0455BF;
+        padding: 10px;
+        height: 40px;
+        color: white;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        right: 5px;
+        cursor: pointer;
+    }
+
+    .region-name{
+        position: absolute;
+        width: 200px;
+        text-align: left;
+        left: 170px;
+        font-size: 20px;
+    }
+
+}
+
+@media (orientation: portrait) and (max-width: 550px){
+    .header{
+        position: absolute;
+        width: 95vw;
+        height: 40px;
+        z-index: 100;
+        background-color: white;
+        border-radius: 20px;
+        left: 2.5vw;
+        top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .toglle-menu{
+        z-index: 100;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        transition: .8s;
+        left: -7px;
+        top: 5px;
+        scale: 0.75;
+    }
+
+    .region-name{
+        position: absolute;
+        width: 160px;
+        text-align: left;
+        left: 130px;
+    }
+
+    .back-btn{
+        display: flex;
+        position: absolute;
+        background-color: #0455BF;
+        padding: 10px;
+        height: 40px;
+        color: white;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        scale: 0.75;
+        right: -5px;
+    }
+
+}

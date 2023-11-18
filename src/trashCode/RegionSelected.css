@@ -1,0 +1,17 @@
+.region-header-title{
+    position: absolute;
+    z-index: 100;
+    width: fit-content;
+    height: 50px;
+    align-self: center;
+    margin-left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    border: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: white;
+    padding-top:13px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.41);
+}

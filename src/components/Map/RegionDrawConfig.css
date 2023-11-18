@@ -1,0 +1,60 @@
+.marker-disposal{
+    position: absolute;
+    border-radius: 50% 50% 50% 0;
+    background-color: white;
+    border: 5px solid var(--MainColor);
+    width: 40px;
+    height: 40px;
+    transform: translateX(-50%) translateY(-120%) rotate(-45deg);
+    transition: .5s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.marker-disposal > .disposal-icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    transition: .5s;
+    transform-origin: center;
+}
+
+.marker-disposal:hover{
+    box-shadow: 0 0 3px var(--MainColor);
+    z-index: 100000;
+}
+
+.marker-posi{
+    position: absolute;
+    border-radius: 50% 50% 50% 0;
+    background-color: var(--MainColor);
+    border: 5px solid white;
+    width: 40px;
+    height: 40px;
+    transform: translateX(-50%) translateY(-120%) rotate(-45deg);
+    transition: .5s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    box-shadow: 0 0 5px var(--MainColor);
+    z-index: 10000;
+    animation: 2s markPosi infinite linear;
+}
+
+
+
+@keyframes markPosi {
+    0%{
+        transform: translateX(-50%) translateY(-120%) rotate(-45deg);
+    }
+    50%{
+        transform: translateX(-50%) translateY(-110%) rotate(-45deg);
+    }
+    100%{transform: translateX(-50%) translateY(-120%) rotate(-45deg);}
+}

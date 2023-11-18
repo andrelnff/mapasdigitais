@@ -1,0 +1,109 @@
+.subtitles{
+    position: absolute;
+    top: calc(50vh - 40px);
+    transform: translateY(-50%);
+    left: -450px;
+    height: 70vh;
+    width: 400px;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    z-index: 100;
+}
+.subtitles.active{
+    left:0;
+    transition: .5s;
+}
+
+@media (max-width: 410px){
+    .subtitles{
+        width: 99vw;
+    }
+}
+
+.title-element{
+    position: relative;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    margin: -20px auto;
+    margin-top: -30px;
+    border-radius: 1.6em;
+    border: 2px solid #0468BF;
+    color: #0468BF;
+    cursor: default;
+}
+
+.subtitles-content{
+    position: absolute;
+    top: 70px;
+    width: 97%;
+    height: calc(95% - 50px);
+    overflow-y: scroll;
+    padding: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sub-element{
+    display: flex;
+    position: relative;
+    width: 95%;
+    min-height: 50px;
+    justify-content: start;
+    border-radius: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.257);
+    align-items: center;
+    gap: 10px;
+}
+
+.sub-icon.street{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: var(--mainColor);
+    border-radius: 50%;
+    border:  3px solid white ;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), inset 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sub-element span{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid var(--mainColor);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), inset 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sub-element span img{
+    width: 30px;
+    height: 30px;
+}
+
+.sub-element .sub-theme{
+    position: relative;
+    width: 65%;
+}
+
+.sub-element .quant{
+    min-width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid var(--mainColor);
+    text-align: center;
+    padding-top: 5px;
+    color: var(--mainColor);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), inset 2px 2px 4px rgba(0, 0, 0, 0.1);
+}

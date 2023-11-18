@@ -1,0 +1,32 @@
+.item-component{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 6px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.item-component:hover > svg{
+    color: red;
+    
+}
+
+.item-component:hover{
+    border: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+.item-name{
+    font-size: 12px;
+    margin: 2px;
+    pointer-events: none;
+    width: 95%;
+}
+
+.item-component > svg{
+    width: 20px;
+    font-size: 13px;
+    margin: 2px;
+    pointer-events: none;
+}

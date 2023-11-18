@@ -1,0 +1,133 @@
+.themes{
+    position: absolute;
+    top: calc(50vh - 40px);
+    transform: translateY(-50%);
+    left: -450px;
+    height: 70vh;
+    width: 400px;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.themes.active{
+    left:0;
+    transition: .5s;
+}
+
+@media (max-width: 410px){
+    .themes{
+        width: 99vw;
+    }
+}
+
+.btn-close svg{
+    position: absolute;
+    font-size: 20px;
+    color: #0455BF;
+    right: 15px;
+    top: 15px;
+}
+
+.btn-confirm{
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 20px;
+    left: 50%;
+    width: fit-content;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    background-color: #0455BF;
+    padding: 5px 10px;
+    color: white;
+    transition: .2s;
+    outline: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.41);
+    cursor: pointer;
+}
+
+.btn-confirm:hover{
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.49);
+    background-color: #0468BF;
+    transition: .2s;
+}
+.btn-confirm:active{
+    background-color: #0468BF;
+    box-shadow: 0 0px rgba(0, 0, 0, 0.49);
+    transform: translateX(-50%) translateY(2px);
+
+}
+
+.full-list{
+    margin-top: 5px;
+    margin-left: 20px;
+    align-items: center;
+    z-index: 100;
+    overflow-y: scroll;
+    position: relative;
+    width: 95%;
+    height: 52vh;
+    overflow-y: scroll;
+}
+
+
+
+.loader.deactive{
+    width: 95%;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.20);
+}
+
+.loader.active{
+    width: 95%;
+    height: 5px;
+    transition: .5s;
+}
+
+.loader.active::before{
+    content: '';
+    position: absolute;
+    width: 5%;
+    height: 5px;
+    background-color: #0455BF;
+    left: 0%;
+    z-index: 1;
+    transition: .5s;
+    animation: 3s loader1 infinite linear;
+}
+
+.loader.active::after{
+    content: '';
+    position: absolute;
+    width: 5%;
+    height: 5px;
+    background-color: #0455BF;
+    right: 5%;
+    z-index: 1;
+    transition: .5s;
+    animation: 3s loader2 infinite linear;
+}
+@keyframes loader1{
+    0%,100%{
+        left: 0%;
+    }
+    50%{
+        left: 90%;
+    }
+}
+
+@keyframes loader2{
+    0%,100%{
+        right: 5%;
+    }
+    50%{
+        right: 95%;
+    }
+}

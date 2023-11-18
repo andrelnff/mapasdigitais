@@ -1,0 +1,89 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.45458584927,
+                    -1.46701616348446,
+                    0
+                ]
+            },
+            "properties": {
+                "Id": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.4533436623433,
+                    -1.46861260107938,
+                    0
+                ]
+            },
+            "properties": {
+                "Id": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.4599103207847,
+                    -1.46142316552522,
+                    0
+                ]
+            },
+            "properties": {
+                "Id": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.4541598753669,
+                    -1.4678729646876,
+                    0
+                ]
+            },
+            "properties": {
+                "Id": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.4692529772438,
+                    -1.4621763074902,
+                    0
+                ]
+            },
+            "properties": {
+                "Id": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.4656997213215,
+                    -1.45837654263045,
+                    0.0261486567378574
+                ]
+            },
+            "properties": {
+                "Id": "3"
+            }
+        }
+    ]
+}

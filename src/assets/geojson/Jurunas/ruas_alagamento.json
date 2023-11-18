@@ -1,0 +1,1238 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4965439,
+                        -1.46963739999999
+                    ],
+                    [
+                        -48.4970697322779,
+                        -1.46924911049772
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "VILA DOS MUNDURUCUS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4992420277151,
+                        -1.4676854438786
+                    ],
+                    [
+                        -48.4994882206244,
+                        -1.467462274615
+                    ],
+                    [
+                        -48.4996604357462,
+                        -1.46732362048564
+                    ],
+                    [
+                        -48.4996916195548,
+                        -1.46730801466815
+                    ],
+                    [
+                        -48.4997334847651,
+                        -1.46736250602003
+                    ],
+                    [
+                        -48.4997854774128,
+                        -1.46743130038533
+                    ],
+                    [
+                        -48.4998253215241,
+                        -1.46747898393817
+                    ],
+                    [
+                        -48.4999071892906,
+                        -1.46744398975989
+                    ],
+                    [
+                        -48.4999619026781,
+                        -1.46743718098293
+                    ],
+                    [
+                        -48.5001571865784,
+                        -1.46762295412216
+                    ],
+                    [
+                        -48.5002895868301,
+                        -1.46774832492126
+                    ],
+                    [
+                        -48.5004798,
+                        -1.4679267
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM MARCÍLIO DIAS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.5010177971489,
+                        -1.46745713582395
+                    ],
+                    [
+                        -48.500854420846,
+                        -1.46759948639881
+                    ],
+                    [
+                        -48.5007711669653,
+                        -1.46767017030371
+                    ],
+                    [
+                        -48.5006838625556,
+                        -1.46773472465723
+                    ],
+                    [
+                        -48.5005748,
+                        -1.46782389999999
+                    ],
+                    [
+                        -48.500480772334,
+                        -1.46792564783243
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM MARCÍLIO DIAS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.5001811,
+                        -1.4683089
+                    ],
+                    [
+                        -48.4998909044625,
+                        -1.46809699994564
+                    ],
+                    [
+                        -48.4998702895472,
+                        -1.46808812954658
+                    ],
+                    [
+                        -48.4998581149164,
+                        -1.46809049777563
+                    ],
+                    [
+                        -48.4997341,
+                        -1.46823169999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM MARCÍLIO DIAS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.5013678,
+                        -1.4684722
+                    ],
+                    [
+                        -48.5011538,
+                        -1.46834739999999
+                    ],
+                    [
+                        -48.5011456,
+                        -1.46834400000001
+                    ],
+                    [
+                        -48.5011384,
+                        -1.4683427
+                    ],
+                    [
+                        -48.50113,
+                        -1.468345
+                    ],
+                    [
+                        -48.501125,
+                        -1.46834869999999
+                    ],
+                    [
+                        -48.5008454,
+                        -1.46898419999999
+                    ],
+                    [
+                        -48.5005785,
+                        -1.46954319999999
+                    ],
+                    [
+                        -48.5005765,
+                        -1.469554
+                    ],
+                    [
+                        -48.5005792,
+                        -1.46956470000001
+                    ],
+                    [
+                        -48.5007161,
+                        -1.46964559999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM SANTA FÉ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4939093,
+                        -1.4662561
+                    ],
+                    [
+                        -48.4942955837818,
+                        -1.46636617936586
+                    ],
+                    [
+                        -48.4944767708093,
+                        -1.46640177217541
+                    ],
+                    [
+                        -48.4950656704965,
+                        -1.46648001853811
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM DA MÁQUINA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.500480772334,
+                        -1.46792564783243
+                    ],
+                    [
+                        -48.5004798,
+                        -1.4679267
+                    ],
+                    [
+                        -48.5001811,
+                        -1.4683089
+                    ],
+                    [
+                        -48.4998884,
+                        -1.46866019999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM MARCÍLIO DIAS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4934303,
+                        -1.4700893
+                    ],
+                    [
+                        -48.4934398243274,
+                        -1.47010003692746
+                    ],
+                    [
+                        -48.4941629767818,
+                        -1.47089939442054
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DOS CARIPUNAS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4923939,
+                        -1.47092990000001
+                    ],
+                    [
+                        -48.4934303,
+                        -1.4700893
+                    ],
+                    [
+                        -48.4934303,
+                        -1.4700893
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "TRAVESSA MONTE ALEGRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4929925,
+                        -1.4717852
+                    ],
+                    [
+                        -48.4918987,
+                        -1.47265670000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "TRAVESSA DE BREVES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4973211,
+                        -1.46829149999999
+                    ],
+                    [
+                        -48.4973211,
+                        -1.4682915
+                    ],
+                    [
+                        -48.4967449,
+                        -1.46873480000001
+                    ],
+                    [
+                        -48.4961934000002,
+                        -1.46920519999984
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "TRAVESSA DE BREVES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4955673200493,
+                        -1.47434405180255
+                    ],
+                    [
+                        -48.4955668,
+                        -1.4743445
+                    ],
+                    [
+                        -48.495339,
+                        -1.4745406
+                    ],
+                    [
+                        -48.4953366724896,
+                        -1.47454231134473
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4960057635637,
+                        -1.47397227353587
+                    ],
+                    [
+                        -48.4956855,
+                        -1.4742422
+                    ],
+                    [
+                        -48.4955673200493,
+                        -1.47434405180255
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4962815565908,
+                        -1.47373356051436
+                    ],
+                    [
+                        -48.4962792,
+                        -1.47373559999999
+                    ],
+                    [
+                        -48.4960068,
+                        -1.47397140000001
+                    ],
+                    [
+                        -48.4960057635637,
+                        -1.47397227353587
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4965468618976,
+                        -1.47350690506902
+                    ],
+                    [
+                        -48.4965464,
+                        -1.47350730000001
+                    ],
+                    [
+                        -48.4963498,
+                        -1.47367450000001
+                    ],
+                    [
+                        -48.4962815565908,
+                        -1.47373356051436
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4972990777136,
+                        -1.47284421934585
+                    ],
+                    [
+                        -48.4972974702634,
+                        -1.47284549356282
+                    ],
+                    [
+                        -48.4965733,
+                        -1.4734843
+                    ],
+                    [
+                        -48.4965468618976,
+                        -1.47350690506902
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4983791067918,
+                        -1.47189720618556
+                    ],
+                    [
+                        -48.4979339,
+                        -1.4722911
+                    ],
+                    [
+                        -48.4975865,
+                        -1.4725995
+                    ],
+                    [
+                        -48.4972990777136,
+                        -1.47284421934585
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4923939,
+                        -1.47092990000001
+                    ],
+                    [
+                        -48.492731,
+                        -1.47133429999999
+                    ],
+                    [
+                        -48.4930663,
+                        -1.47172900000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DOS TIMBIRAS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4930663,
+                        -1.47172900000001
+                    ],
+                    [
+                        -48.4951225,
+                        -1.4742727
+                    ],
+                    [
+                        -48.495339,
+                        -1.4745406
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA DOS TIMBIRAS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4952253,
+                        -1.47462419999999
+                    ],
+                    [
+                        -48.4951015,
+                        -1.47474250000001
+                    ],
+                    [
+                        -48.4948048,
+                        -1.47499999999999
+                    ],
+                    [
+                        -48.494185799519,
+                        -1.47553744534662
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.5012912234505,
+                        -1.4686625091097
+                    ],
+                    [
+                        -48.5010354166637,
+                        -1.46855231313357
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM SANTA FÉ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.5010354166637,
+                        -1.46855231313357
+                    ],
+                    [
+                        -48.5008715197837,
+                        -1.46848267960724
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM SANTA FÉ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4951503035768,
+                        -1.47007899700374
+                    ],
+                    [
+                        -48.4951503,
+                        -1.47007900000001
+                    ],
+                    [
+                        -48.4942114419014,
+                        -1.47087438878309
+                    ],
+                    [
+                        -48.494197232183,
+                        -1.47088253931974
+                    ],
+                    [
+                        -48.4941629767818,
+                        -1.47089939442054
+                    ],
+                    [
+                        -48.4941241928636,
+                        -1.4709245309245
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "TRAVESSA DE BREVES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.494185799519,
+                        -1.47553744534662
+                    ],
+                    [
+                        -48.4941847,
+                        -1.47553839999999
+                    ],
+                    [
+                        -48.4939545,
+                        -1.47575680000001
+                    ],
+                    [
+                        -48.4937449,
+                        -1.4759318
+                    ],
+                    [
+                        -48.493596,
+                        -1.4760199
+                    ],
+                    [
+                        -48.4934427,
+                        -1.47608550000001
+                    ],
+                    [
+                        -48.4933372,
+                        -1.4761272
+                    ],
+                    [
+                        -48.4932272,
+                        -1.47616129999999
+                    ],
+                    [
+                        -48.4929352,
+                        -1.4762177
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4897511,
+                        -1.4721192
+                    ],
+                    [
+                        -48.489559320854,
+                        -1.47191713691231
+                    ],
+                    [
+                        -48.4894384386938,
+                        -1.47177340435274
+                    ],
+                    [
+                        -48.4893648,
+                        -1.47166550000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "RUA SÃO MIGUEL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.490442,
+                        -1.47327520000001
+                    ],
+                    [
+                        -48.490261038611,
+                        -1.4735094043699
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "VIELA 4 IRMÃOS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4902316,
+                        -1.4740322
+                    ],
+                    [
+                        -48.4901708,
+                        -1.473952
+                    ],
+                    [
+                        -48.4901048484167,
+                        -1.47385210000014
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "VIELA 4 IRMÃOS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4922199767332,
+                        -1.47630594933332
+                    ],
+                    [
+                        -48.4919577317044,
+                        -1.47635737721553
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4919577317044,
+                        -1.47635737721553
+                    ],
+                    [
+                        -48.4915948,
+                        -1.4764202
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4915948,
+                        -1.4764202
+                    ],
+                    [
+                        -48.4911302,
+                        -1.47649940000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4911302,
+                        -1.47649940000001
+                    ],
+                    [
+                        -48.4908813,
+                        -1.4765335
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4908813,
+                        -1.4765335
+                    ],
+                    [
+                        -48.4905424,
+                        -1.4765935
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4905424,
+                        -1.4765935
+                    ],
+                    [
+                        -48.4901003,
+                        -1.4766707
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4901003,
+                        -1.4766707
+                    ],
+                    [
+                        -48.4896213,
+                        -1.47675600000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4896213,
+                        -1.47675600000001
+                    ],
+                    [
+                        -48.4879649330708,
+                        -1.47701330941844
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4906434,
+                        -1.47343750000001
+                    ],
+                    [
+                        -48.4907249,
+                        -1.4733357
+                    ],
+                    [
+                        -48.490821,
+                        -1.47322450000001
+                    ],
+                    [
+                        -48.4909084,
+                        -1.4731395
+                    ],
+                    [
+                        -48.4909216,
+                        -1.4731194
+                    ],
+                    [
+                        -48.4909756,
+                        -1.47298690000001
+                    ],
+                    [
+                        -48.4910198,
+                        -1.47289489999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM MONTE ALEGRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4891977,
+                        -1.4750443
+                    ],
+                    [
+                        -48.4899571,
+                        -1.4742815
+                    ],
+                    [
+                        -48.4902151,
+                        -1.4740465
+                    ],
+                    [
+                        -48.4902316,
+                        -1.4740322
+                    ],
+                    [
+                        -48.4903241,
+                        -1.473946
+                    ],
+                    [
+                        -48.4904208,
+                        -1.4738445
+                    ],
+                    [
+                        -48.4904966,
+                        -1.4737394
+                    ],
+                    [
+                        -48.4905499,
+                        -1.4736451
+                    ],
+                    [
+                        -48.4906469,
+                        -1.4734777
+                    ],
+                    [
+                        -48.4906491,
+                        -1.47345700000001
+                    ],
+                    [
+                        -48.4906434,
+                        -1.47343750000001
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "PASSAGEM MONTE ALEGRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4929352,
+                        -1.4762177
+                    ],
+                    [
+                        -48.4925593358574,
+                        -1.47626295365964
+                    ],
+                    [
+                        -48.4922199767332,
+                        -1.47630594933332
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.490261038611,
+                        -1.4735094043699
+                    ],
+                    [
+                        -48.4901048484167,
+                        -1.47385210000014
+                    ],
+                    [
+                        -48.48966400099,
+                        -1.47430338923992
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "VIELA 4 IRMÃOS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4858617,
+                        -1.47472130000001
+                    ],
+                    [
+                        -48.4859865,
+                        -1.4750484
+                    ],
+                    [
+                        -48.4861865,
+                        -1.4756746
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "TRAVESSA QUINTINO BOCAIÚVA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -48.4953366724896,
+                        -1.47454231134473
+                    ],
+                    [
+                        -48.4952258150785,
+                        -1.47462382127915
+                    ],
+                    [
+                        -48.4952253,
+                        -1.47462419999999
+                    ]
+                ]
+            },
+            "properties": {
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "fill-opacity": 0,
+                "NOME_RUA": "AVENIDA BERNARDO SAYÃO"
+            }
+        }
+    ],
+    "properties": {
+        "fill-color": "#0300da",
+        "stroke-color": "#0300da",
+        "stroke-width": 1.3,
+        "z-index": 4,
+        "title": "Trecho com alagamento ou inundação"
+    }
+}

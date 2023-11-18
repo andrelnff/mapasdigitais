@@ -1,0 +1,117 @@
+
+.box-itens{
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    width: 126px;
+    height: 30px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    overflow: hidden;
+    left: 15px;
+    top: 28px;
+    transition: .5s;
+    transform-origin: bottom right;
+}
+
+.box-itens.active{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+
+.button-clear{
+    position: absolute;
+    width: 83px;
+    top: 5;
+    right: 10px;
+    display: flex;
+    color: white;
+    background-color: #0455BF;
+    border: none;
+    height: 30px;
+    padding: 2px;
+    border-radius: 15px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.button-clear:hover{
+
+    background-color: #0468BF;
+    transition: .2s;
+}
+
+
+.button-clear > p {
+    margin: 3px;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+
+
+.button-clear > svg{
+    margin: 3px;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.button-clear:active{
+    transform: translateY(2px);
+}
+
+.component{
+    flex: none;
+    position: absolute;
+    display: flex;
+    width: 126px;
+    height: 30px;
+    padding: 2px;
+    background-color: #0455BF;
+    color: white;
+    border-radius: 15px;
+    z-index: 1;
+    cursor: pointer;
+}
+.component > p {
+    margin: 3px;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+
+.component:hover{
+
+    background-color: #0468BF;
+    transition: .2s;
+}
+
+.component:active{
+    transform: translateY(2px);
+}
+
+
+
+.itens{
+    position: absolute;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    align-content: flex-start;
+    width: 290px;
+    height: 85%;
+    padding: 1%;
+    overflow-y: scroll;
+}
+
+.alert{
+    font-size: 13px;
+    color: gray;
+    position: absolute;
+    width: 99%;
+    text-align: center;
+    top: 100px;
+    cursor: default;
+
+}

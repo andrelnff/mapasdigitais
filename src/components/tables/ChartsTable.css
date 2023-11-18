@@ -1,0 +1,87 @@
+@media (orientation: portrait) and (max-width: 520px){
+    .charts-table{
+        position: absolute;
+        bottom: 15px;
+        left: calc(50vw - 210px);
+        width: 420px;
+        padding: 10px;
+        height: calc(100vh - 150px);
+        background-color: transparent;
+        border-radius: 10px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .grafh{
+        width: 400px;
+        height: 250px;
+        background-color: white;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+
+    }
+}
+
+@media (min-width: 521px){
+    .charts-table{
+        position: absolute;
+        bottom: 15px;
+        left: calc(50vw - 260px);
+        width: 520px;
+        padding: 10px 5px 10px 10px;
+
+        height: calc(100vh - 150px);
+        background-color: white;
+        border-radius: 10px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .grafh{
+        width: 500px;
+        height: 350px;
+        background-color: white;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+
+    }
+}
+
+@media (min-width: 1031px){
+    .charts-table{
+        display: flex;
+        position: absolute;
+        bottom: 15px;
+        left: calc(50vw - 515px);
+        width: 1031px;
+        padding: 10px 5px 9px 10px;
+        height: calc(100vh - 150px);
+        background-color: white;
+        border-radius: 10px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 10px;
+        flex-direction: row;
+        
+        
+    }
+
+    .grafh{
+        width: 500px;
+        height: 350px;
+        background-color: white;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+
+    }
+}
