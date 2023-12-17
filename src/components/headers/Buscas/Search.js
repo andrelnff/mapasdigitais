@@ -3,7 +3,6 @@ import './Search.css'
 import * as AiIcons from 'react-icons/ai'
 import {useState, useEffect, useRef} from 'react'
 import ItemSearch from "./ItemSearch"
-import api from "../../../services/api";
 import OutSideClick from "../../hooks/OutsideClick";
 
 let page = 1
@@ -44,28 +43,6 @@ function Search(props){
 
         if(page <= maxNumPage){
             setLoader(true)
-
-            await api.get(`regions/${props.regionId}/activities?name=${textInput}&page=${page}`).then((res) => {
-                
-                
-                let newData = []
-
-                res.data.data.forEach((element) => {
-                    let coord = JSON.parse(element.geometry)
-                    newData.push({
-                        id: element.id,
-                        subId: element.subclass_id,
-                        coord: {lat: coord.coordinates[1], lng: coord.coordinates[0]},
-                        name: element.name,
-                        subName:element.subclass.name,
-                        color: element.subclass.class.related_color,
-                        icon: element.subclass.related_icon.path,
-                    })
-                })
-                setDataFound((prevData) => [...prevData, ...newData])
-                page++
-                maxNumPage = res.data.last_page
-            })
             setLoader(false) 
             if(page > maxNumPage){
                 setShowMore(false)
@@ -123,11 +100,12 @@ function Search(props){
         }    
     }
 
-    const HandleKeyEnter = (e: React.KeyboardEvent) => {
-        if(e.keyCode === 13){
+    const HandleKeyEnter = (e) => {
+        if(e.key === 'Enter'){
             handleSetSearch()
         }
     }
+
 
 
     return(

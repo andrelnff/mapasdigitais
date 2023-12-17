@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 import { useState , useRef} from 'react'
 import {SidebarData} from './SidebarData'
 import OutSideClick from './hooks/OutsideClick'
-import UsuarioMenuDropDownMui from "./UsuarioMenuMui/UsuarioMenuDropDownMui";
 import UsuarioMenuDropdown from "./UsuarioMenu/UsuarioMenuDropdown";
 
 function Sidebar() {

@@ -2,7 +2,6 @@ import React from "react";
 import * as AiIcons from 'react-icons/ai'
 import './Themes.css'
 import ClassObject from "./ClassObject";
-import api from "../../../services/api";
 import {useState, useEffect, useRef} from 'react'
 import SelectedItens from "./SelectedItens";
 import OutSideClick from "../../hooks/OutsideClick";
@@ -32,18 +31,8 @@ function Themes(props){
 
     async function getClasses(){
         if(currentPage <= maxNumPage){
-            await api.get(`classes?page=${currentPage}`).then((res)=>{
-                setMaxNumPage(res.data.last_page)
-                let newData = []
-                res.data.data.forEach((item) => {
-                    newData.push({id: item.id, name: item.name, children: null})
-                })
-                setDataLoaded((prevData) => [...prevData,...newData])
-            })
             setCurrentPage(currentPage+1)
             setLoader(false)
-           
-
         }
     }
 
