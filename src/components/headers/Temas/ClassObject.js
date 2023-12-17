@@ -3,7 +3,6 @@ import React from "react";
 import * as AiIcons from 'react-icons/ai'
 import SubClassObject from "./SubClassObject";
 import './ClassObject.css'
-import api from "../../../services/api";
 import OutSideClick from "../../hooks/OutsideClick";
 
 export default function ClassObject(props){
@@ -31,18 +30,8 @@ export default function ClassObject(props){
     async function getSubClasses(){
         if(currentPage <= maxNumPage){
             setLoader(true)
-            await api.get(`classes/${props.id}/subclasses?page=${currentPage}`).then((res)=>{
-                setMaxNumPage(res.data.last_page)
-                let newData = []
-                res.data.data.forEach((item) => {
-                    newData.push({id: item.id, name: item.name, children: null})
-                })
-                setDataLoaded((prevData) => [...prevData,...newData])
-            })
             setCurrentPage(currentPage+1)
             setLoader(false)
-           
-
         }
     }
 
