@@ -1,27 +1,28 @@
+import {loadRegionData} from "../../services/loadRegionData";
 
-import Regions from '../../data/Regions'
+async function RegionsInitVectors() {
+    const Regions = await loadRegionData();
 
-function  RegionsInitVectors(){
-    const regionsInitPath = []
+    const regionsInitPath = [];
     Regions.forEach(item => {
-        const arrayPath = []
-        item.limites.features[0].geometry.coordinates[0].map(path => arrayPath.push({lat: path[1], lng:path[0]}))
-        regionsInitPath.push(arrayPath) 
-    })
+        const arrayPath = [];
+        item.limites.features[0].geometry.coordinates[0].map(path => arrayPath.push({lat: path[1], lng:path[0]}));
+        regionsInitPath.push(arrayPath);
+    });
 
-    const regionsInitMarkerPosi = []
-    Regions.forEach(item => regionsInitMarkerPosi.push({lat: item.centro[1], lng:item.centro[0]}))
+    const regionsInitMarkerPosi = [];
+    Regions.forEach(item => regionsInitMarkerPosi.push({lat: item.centro[1], lng:item.centro[0]}));
 
-    const regionsInitMarkerLabel = []
+    const regionsInitMarkerLabel = [];
     Regions.forEach(item => {
-        regionsInitMarkerLabel.push(item.nome)
-    })
+        regionsInitMarkerLabel.push(item.nome);
+    });
 
     return {
         polygonPath: regionsInitPath,
         regionsMarkers: regionsInitMarkerPosi,
-        regionsLabel: regionsInitMarkerLabel,  
-    }
+        regionsLabel: regionsInitMarkerLabel,
+    };
 }
 
-export default RegionsInitVectors
+export default RegionsInitVectors;
