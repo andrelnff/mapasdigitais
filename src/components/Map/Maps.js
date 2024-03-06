@@ -22,15 +22,13 @@ function Maps(props){
 
 
     useEffect(() => {
-        if(map){
+        if(map && props.view){
             const bounds = new window.google.maps.LatLngBounds();
             props.view.forEach(marker => {
                 bounds.extend(marker)
             })
-            
+
             map.fitBounds(bounds)
-
-
         }
     }, [map, props.view, props.polygonsInit ])
 
