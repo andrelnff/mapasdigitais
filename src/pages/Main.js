@@ -3,14 +3,9 @@ import {useLoadScript} from '@react-google-maps/api'
 import Maps from '../components/Map/Maps'
 import RegionsInitVectors from "../components/Map/RegionsInitVectors";
 import RegionSelect from "../components/selectors/RegionSelect";
-import RegionSelectedHeader from "../components/headers/RegionSelectedHeader"
+import RegionSelectedHeader from "../components/headers/RegionSelectedHeader";
 import RegionsGetFitBounds from "../components/Map/RegionsGetFitBounds";
 import LoadingOverlay from "../components/LoadingOverlay"
-import Regions from "../data/Regions";
-
-const regionsInitVectors = RegionsInitVectors()
-
-let regionsGetFitBounds = RegionsGetFitBounds()
 
 function Main(){
     const { isLoaded } = useLoadScript({
@@ -18,8 +13,8 @@ function Main(){
     });
     const [regionSelected, setRegionSelected] = useState(null);
     const [fitBounds, setFitBounds] = useState()
-
-    //headersSelectedRegion
+    const [regionsInitVectors, setRegionsInitVectors] = useState(null);
+    const [regionsGetFitBounds, setRegionsGetFitBounds] = useState(null);
 
     const [controlArrayStreets, setControlArrayStreets] = useState([true,true,true,true,false,false])
     const [controlArrayConfig, setControlArrayConfig] = useState([false,false])
@@ -28,26 +23,33 @@ function Main(){
     const [regionId, setRegionId] = useState()
     const [fullData, setFullData] = useState([])
 
-    //headersSelectedRegion
+    useEffect(() => {
+        RegionsInitVectors().then(data => {
+            setRegionsInitVectors(data);
+        });
+    }, []);
+
+    useEffect(() => {
+        RegionsGetFitBounds().then(data => {
+            setRegionsGetFitBounds(data);
+            if(regionSelected === null){
+                setFitBounds(data.allRegionsBounds)
+            }else{
+                console.log("entrou no else");
+                console.log(data.regionBounds[regionSelected]);
+                setFitBounds(data.regionBounds[regionSelected])
+            }
+        });
+    }, [subClassesArray, regionId, regionSelected, setFitBounds]);
 
     function handleSetRegion(index){
         setRegionSelected(index)
-        setRegionId(Regions[index].id)
+        setRegionId(regionsInitVectors[index].id)
         setInLoadScreen(true)
         setTimeout(function(){
             setInLoadScreen(false)
         },1000)
     }
-
-    useEffect(() => {
-        if(regionSelected === null){
-            setFitBounds(regionsGetFitBounds.allRegionsBounds)
-        }else{
-            setFitBounds(regionsGetFitBounds.regionBounds[regionSelected])
-        }
-
-    }, [subClassesArray, regionId, regionSelected, setFitBounds])
-
 
     const backButton = () => {
         setRegionSelected(null)
@@ -56,63 +58,61 @@ function Main(){
         setControlArrayStreets([true,true,true,true,false,false])
     }
 
-
-    if(!isLoaded){
+    if(!isLoaded || !regionsInitVectors || !regionsGetFitBounds){
         return <div>Loading...</div>
-    }else{// a página Main começa aqui
-        //Items da tela inicial
+    }else{
         return(<>
 
-        
-        <LoadingOverlay Loading={inLoadScreen}/>
 
-        <RegionSelect
-            labels={regionsInitVectors.regionsLabel}
-            onChange={handleSetRegion}
-            setRegion={regionSelected}
-        />
+            <LoadingOverlay Loading={inLoadScreen}/>
 
-        <RegionSelectedHeader
-            labels={regionsInitVectors.regionsLabel}
-            setRegion={regionSelected}
+            <RegionSelect
+                labels={regionsInitVectors.regionsLabel}
+                onChange={handleSetRegion}
+                setRegion={regionSelected}
+            />
 
-            controlArrayStreets={controlArrayStreets}
-            setControlArrayStreets={setControlArrayStreets}
-            controlArrayConfig={controlArrayConfig}
-            setControlArrayConfig={setControlArrayConfig}
+            <RegionSelectedHeader
+                labels={regionsInitVectors.regionsLabel}
+                setRegion={regionSelected}
 
-            setSubClassesArray={setSubClassesArray}
-            regionId={regionId}
-            fullData={fullData}
-            setFullData={setFullData}
-            subClassesArray={subClassesArray}
-            backButton={backButton}
+                controlArrayStreets={controlArrayStreets}
+                setControlArrayStreets={setControlArrayStreets}
+                controlArrayConfig={controlArrayConfig}
+                setControlArrayConfig={setControlArrayConfig}
 
-        />
-        
-        {regionSelected !== null ?
-         (
-            <>  
-                <Maps 
-                    view={fitBounds}
-                    region={regionSelected}
-                    controlArrayStreets={controlArrayStreets}
-                    controlArrayConfig={controlArrayConfig}
-                    fullData={fullData}
+                setSubClassesArray={setSubClassesArray}
+                regionId={regionId}
+                fullData={fullData}
+                setFullData={setFullData}
+                subClassesArray={subClassesArray}
+                backButton={backButton}
 
-                />
-            </>
-         ):
-         (
-            <>                 
-                <Maps 
-                    polygonsInit={regionsInitVectors}
-                    polyInitOnClick={handleSetRegion}
-                    view={fitBounds}
-                />
-            </>
-         )}
-            
+            />
+
+            {regionSelected !== null ?
+                (
+                    <>
+                        <Maps
+                            view={fitBounds}
+                            region={regionSelected}
+                            controlArrayStreets={controlArrayStreets}
+                            controlArrayConfig={controlArrayConfig}
+                            fullData={fullData}
+
+                        />
+                    </>
+                ):
+                (
+                    <>
+                        <Maps
+                            polygonsInit={regionsInitVectors}
+                            polyInitOnClick={handleSetRegion}
+                            view={fitBounds}
+                        />
+                    </>
+                )}
+
         </>)
     }
 }
