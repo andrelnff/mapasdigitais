@@ -1,5 +1,5 @@
 export function createRegion(data) {
-    return {
+    return [{
         id: 1,
         nome: "Benguí",
         municipio: "Belém",
@@ -25,5 +25,5 @@ export function createRegion(data) {
         Flooding: data['bengui_ruas_alagamento'],
         Repairs: data['bengui_ruas_reparos'],
         Obstructed: data['bengui_ruas_obstrucao'],
-    };
+    }];
 }
