@@ -1,7 +1,7 @@
 import React,{useState, useRef} from "react";
 import './RegionSelect.css'
 import * as AiIcons from 'react-icons/ai'
-import OutSideClick from "../hooks/OutsideClick";
+import OutSideClick from "../../hooks/OutsideClick";
 
 
 function RegionSelect(props) {

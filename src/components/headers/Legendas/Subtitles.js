@@ -1,6 +1,6 @@
 import React, {useRef, useState, useEffect} from "react";
 import "./Subtitles.css"
-import OutSideClick from "../../hooks/OutsideClick";
+import OutSideClick from "../../../hooks/OutsideClick";
 import * as AiIcons from 'react-icons/ai';
 import SubStreet from "./SubStreets";
 import SubConfigs from "./SubConfigs.js";

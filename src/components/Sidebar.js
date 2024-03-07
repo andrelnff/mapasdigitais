@@ -5,7 +5,7 @@ import * as AiIcons from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import { useState , useRef} from 'react'
 import {SidebarData} from './SidebarData'
-import OutSideClick from './hooks/OutsideClick'
+import OutSideClick from '../hooks/OutsideClick'
 import UsuarioMenuDropdown from "./UsuarioMenu/UsuarioMenuDropdown";
 
 function Sidebar() {

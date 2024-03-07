@@ -3,7 +3,7 @@ import React from "react";
 import * as AiIcons from 'react-icons/ai'
 import SubClassObject from "./SubClassObject";
 import './ClassObject.css'
-import OutSideClick from "../../hooks/OutsideClick";
+import OutSideClick from "../../../hooks/OutsideClick";
 
 export default function ClassObject(props){
     const [isOpen, setIsOpen] = useState(false)

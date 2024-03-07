@@ -1,6 +1,6 @@
 import React,{useState, useRef} from "react";
 import "./Configurations.css"
-import OutSideClick from "../../hooks/OutsideClick";
+import OutSideClick from "../../../hooks/OutsideClick";
 import * as AiIcons from 'react-icons/ai'
 import ConfigurationsData from "./ConfigurationsData";
 

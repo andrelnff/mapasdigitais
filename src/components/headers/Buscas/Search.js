@@ -3,7 +3,7 @@ import './Search.css'
 import * as AiIcons from 'react-icons/ai'
 import {useState, useEffect, useRef} from 'react'
 import ItemSearch from "./ItemSearch"
-import OutSideClick from "../../hooks/OutsideClick";
+import OutSideClick from "../../../hooks/OutsideClick";
 
 let page = 1
 let maxNumPage = 1

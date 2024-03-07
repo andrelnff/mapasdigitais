@@ -1,7 +1,7 @@
 import React, {useEffect, useRef} from "react";
 import StreetsData from './StreetsData'
 import './Streets.css'
-import OutSideClick from "../../hooks/OutsideClick";
+import OutSideClick from "../../../hooks/OutsideClick";
 import * as AiIcons from 'react-icons/ai'
 
 

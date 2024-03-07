@@ -4,7 +4,7 @@ import './Themes.css'
 import ClassObject from "./ClassObject";
 import {useState, useEffect, useRef} from 'react'
 import SelectedItens from "./SelectedItens";
-import OutSideClick from "../../hooks/OutsideClick";
+import OutSideClick from "../../../hooks/OutsideClick";
 
 
 function Themes(props){

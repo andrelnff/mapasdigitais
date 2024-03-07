@@ -5,7 +5,7 @@ import * as TbIcons from 'react-icons/tb'
 
 import './ToglleSelect.css'
 import { useState, useRef} from 'react';
-import OutSideClick from "../hooks/OutsideClick";
+import OutSideClick from "../../hooks/OutsideClick";
 
 function ToglleSelect(props){
     const [toglle, setToglle] = useState(false)

@@ -3,7 +3,7 @@ import './SelectedItens.css'
 import { useState, useEffect, useRef } from 'react'
 import * as AiIcons from 'react-icons/ai'
 import Item from "./Item";
-import OutSideClick from "../../hooks/OutsideClick";
+import OutSideClick from "../../../hooks/OutsideClick";
 
 function SelectedItens(props){
     const [isOpen, setIsOpen] = useState(false)

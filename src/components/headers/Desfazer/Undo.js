@@ -1,7 +1,7 @@
 import React, {useRef} from "react";
 import './Undo.css'
 import * as AiIcons from 'react-icons/ai'
-import OutSideClick from "../../hooks/OutsideClick";
+import OutSideClick from "../../../hooks/OutsideClick";
 
 function Undo(props){
     const Ref = useRef(null)
