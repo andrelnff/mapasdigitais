@@ -15,8 +15,6 @@ export const RegionProvider = (props) => {
     useEffect(() => {
         async function loadData() {
             const data = await loadRegionData();
-            console.log("Testando context");
-            console.log(data);
             setRegions(data);
         }
 

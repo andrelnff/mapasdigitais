@@ -30,7 +30,6 @@ function LoginPage() {
             .catch((error) => {
                 setError(true);
                 const errorMessage = error.message;
-                console.log(error)
                 console.error('Erro ao fazer login:', errorMessage);
             });
 

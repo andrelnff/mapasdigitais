@@ -20,9 +20,6 @@ function App() {
 
   const isLoginScreen = window.location.pathname === '/login';
   const shouldRenderSidebar = currentUser && !isLoginScreen;
-
-  console.log(currentUser);
-
   const RequireAuth = ({ children }) => {
     return currentUser ? children : <Navigate to="/login" replace />;
   };
