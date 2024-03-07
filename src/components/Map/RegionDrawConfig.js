@@ -1,14 +1,16 @@
-import React, {useState, useEffect} from "react";
+import React, { useContext, useEffect, useState } from 'react'; // Importe o useContext
 import { OverlayView } from "@react-google-maps/api";
-import Regions from "../../data/Regions";
 import './RegionDrawConfig.css'
 import trashSvg from "../../assets/svg/trash.svg"
+import {RegionContext} from "../../context/RegionContext";
+
 
 function RegionDrawConfig(props){
     const [myPosi, setMyPosi] = useState()
     const [currentPosi, setCurrentPosi] = useState()
 
-    
+    const { regions } = useContext(RegionContext); // Use o useContext para acessar os dados de regions
+
     useEffect(() => {
         if(props.controlArrayConfig[0] === true ){
             DrawCurrentPosi()
@@ -31,10 +33,10 @@ function RegionDrawConfig(props){
     function DrawAreaDisposal(){
         const disposalArray = []
 
-        if(Regions[props.region].Disposal === null){
+        if(regions[props.region].Disposal === null){ // Use regions do contexto aqui
             console.log('não há dados')
         }else{
-            const Disposal = Regions[props.region].Disposal
+            const Disposal = regions[props.region].Disposal // Use regions do contexto aqui
 
             Disposal.features.forEach(item => {
                 const point = item.geometry.coordinates
@@ -45,19 +47,19 @@ function RegionDrawConfig(props){
 
         return disposalArray.map((path, index) => {
             return(
-            
-            <OverlayView position={path} key={index} mapPaneName={OverlayView.OVERLAY_MOUSE_TARGET}>
-                
-                   <div 
-                        style={{'--MainColor': '#8CDC04'}} 
+
+                <OverlayView position={path} key={index} mapPaneName={OverlayView.OVERLAY_MOUSE_TARGET}>
+
+                    <div
+                        style={{'--MainColor': '#8CDC04'}}
                         className='marker-disposal'
-                   >
+                    >
                         <img src={trashSvg} alt="disposal icon" className="disposal-icon"/>
 
-                   </div> 
+                    </div>
 
-            </OverlayView>
-            
+                </OverlayView>
+
             )
         })
     }
@@ -65,31 +67,29 @@ function RegionDrawConfig(props){
     return(<>
 
         <div>
-        {props.controlArrayConfig[0] ? (<>
-            <div key={'MyPosition'}>
-            <OverlayView position={myPosi} mapPaneName={OverlayView.OVERLAY_MOUSE_TARGET}>
-                
-                <div 
-                     style={{'--MainColor': '#06D6CC'}} 
-                     className='marker-posi'
-                >
-                </div> 
+            {props.controlArrayConfig[0] ? (<>
+                <div key={'MyPosition'}>
+                    <OverlayView position={myPosi} mapPaneName={OverlayView.OVERLAY_MOUSE_TARGET}>
 
-         </OverlayView>
-            </div>
-        </>): ('')}
+                        <div
+                            style={{'--MainColor': '#06D6CC'}}
+                            className='marker-posi'
+                        >
+                        </div>
+
+                    </OverlayView>
+                </div>
+            </>): ('')}
         </div>
 
         <div>
-        {props.controlArrayConfig[1] ? (<>
-            <div key={'areaDisposal'}>{DrawAreaDisposal()}</div>
-        </>): ('')}
+            {props.controlArrayConfig[1] ? (<>
+                <div key={'areaDisposal'}>{DrawAreaDisposal()}</div>
+            </>): ('')}
         </div>
 
-        
-    </>)
 
-  
+    </>)
 }
 
 export default RegionDrawConfig

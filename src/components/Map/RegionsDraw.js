@@ -1,10 +1,11 @@
-import React from "react";
-import { MarkerF, PolygonF, PolylineF } from "@react-google-maps/api";
-import Regions from "../../data/Regions";
+import React, {useContext} from "react";
+import { PolygonF, PolylineF } from "@react-google-maps/api";
+import {RegionContext} from "../../context/RegionContext";
 
 export default function RegionsDraw(props){
+    const { regions } = useContext(RegionContext);
 
-    const region = Regions[props.region]
+    const region = regions[props.region]; // Use regions do contexto aqui
 
 
 
@@ -27,13 +28,14 @@ export default function RegionsDraw(props){
             }
         )
 
-        return(<> 
+        return(<>
             <PolygonF  key={region.nome} path={regionLimits} options={optionLimits}/>
         </>)
-        
+
     }
 
     function DrawAreaAsphalt(){
+        const { regions } = useContext(RegionContext);
 
         const asphaltArray = []
 
@@ -50,11 +52,11 @@ export default function RegionsDraw(props){
             zIndex: 2
         }
 
-        if(Regions[props.region].Asphalt === null){
-            
+        if(regions[props.region].Asphalt === null){
+
         }else{
-            const Asphalt = Regions[props.region].Asphalt
- 
+            const Asphalt = regions[props.region].Asphalt
+
 
             Asphalt.features.forEach((feature, index) => {
 
@@ -79,6 +81,8 @@ export default function RegionsDraw(props){
 
     function DrawAreaBlock(){
 
+        const { regions } = useContext(RegionContext);
+
         const blockArray = []
 
         const blockOptions = {
@@ -94,14 +98,14 @@ export default function RegionsDraw(props){
             zIndex: 3
         }
 
-        if(Regions[props.region].Block === null){
+        if(regions[props.region].Block === null){
 
         }else{
-            const Block = Regions[props.region].Block
-   
+            const Block = regions[props.region].Block
+
 
             Block.features.forEach((feature, index) => {
-   
+
                 if(feature.geometry.type === 'Polygon'){
                     feature.geometry.coordinates.forEach( coords => {
                         const arrayPath = []
@@ -123,6 +127,8 @@ export default function RegionsDraw(props){
 
     function DrawAreaUnpaved(){
 
+        const { regions } = useContext(RegionContext);
+
         const unpavedArray = []
 
         const unpavedOptions = {
@@ -138,13 +144,13 @@ export default function RegionsDraw(props){
             zIndex: 4
         }
 
-        if(Regions[props.region].Unpaved === null){
+        if(regions[props.region].Unpaved === null){
 
         }else{
-            const Unpaved = Regions[props.region].Unpaved
+            const Unpaved = regions[props.region].Unpaved
 
             Unpaved.features.forEach((feature, index) => {
- 
+
                 if(feature.geometry.type === 'Polygon'){
                     feature.geometry.coordinates.forEach( coords => {
                         const arrayPath = []
@@ -166,6 +172,8 @@ export default function RegionsDraw(props){
 
     function DrawAreaFlooding(){
 
+        const { regions } = useContext(RegionContext);
+
         const floodingArray = []
 
         const floodingOptions = {
@@ -181,22 +189,22 @@ export default function RegionsDraw(props){
             zIndex: 5
         }
 
-        if(Regions[props.region].Flooding === null){
+        if(regions[props.region].Flooding === null){
 
         }else{
-            const Flooding = Regions[props.region].Flooding
-            
+            const Flooding = regions[props.region].Flooding
+
             Flooding.features.forEach((feature, index) => {
                 if(feature.geometry.type === 'LineString'){
                     const arrayPath = []
                     feature.geometry.coordinates.forEach( coords => {
                         arrayPath.push({lat: coords[1], lng:coords[0]})
 
-                        
+
                     })
                     floodingArray.push(arrayPath)
                 }
-                
+
             })
 
         }
@@ -208,6 +216,8 @@ export default function RegionsDraw(props){
     }
 
     function DrawAreaRepairs(){
+
+        const { regions } = useContext(RegionContext);
 
         const repairsArray = []
 
@@ -235,22 +245,22 @@ export default function RegionsDraw(props){
             },],
         }
 
-        if(Regions[props.region].Repairs === null){
+        if(regions[props.region].Repairs === null){
             console.log('sem dados')
         }else{
-            const Repairs = Regions[props.region].Repairs
-            
+            const Repairs = regions[props.region].Repairs
+
             Repairs.features.forEach((feature, index) => {
                 if(feature.geometry.type === 'LineString'){
                     const arrayPath = []
                     feature.geometry.coordinates.forEach( coords => {
                         arrayPath.push({lat: coords[1], lng:coords[0]})
 
-                        
+
                     })
                     repairsArray.push(arrayPath)
                 }
-                
+
             })
 
         }
@@ -263,6 +273,8 @@ export default function RegionsDraw(props){
     }
 
     function DrawAreaObstructed(){
+
+        const { regions } = useContext(RegionContext);
 
         const obstructedArray = []
 
@@ -291,10 +303,10 @@ export default function RegionsDraw(props){
             },],
         }
 
-        if(Regions[props.region].Obstructed === null){
+        if(regions[props.region].Obstructed === null){
             console.log('sem dados')
         }else{
-            const Obstructed = Regions[props.region].Obstructed
+            const Obstructed = regions[props.region].Obstructed
             
             Obstructed.features.forEach((feature, index) => {
                 if(feature.geometry.type === 'LineString'){
@@ -341,8 +353,5 @@ export default function RegionsDraw(props){
         {props.controlArrayStreets[5] ? (<>
             <div key={'areaObstructed'}>{DrawAreaObstructed()}</div>
         </>): ('')}
-        {/* {props.controlArray[6] ? (<>
-            <div key={'areaDisposal'}>{DrawAreaDisposal()}</div>
-        </>): ('')} */}
     </>)
 }
