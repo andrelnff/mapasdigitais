@@ -2,7 +2,7 @@ import React,{useEffect, useState} from "react";
 import {useLoadScript} from '@react-google-maps/api'
 import Maps from '../components/Map/Maps'
 import RegionsInitVectors from "../components/Map/RegionsInitVectors";
-import RegionSelect from "../components/selectors/RegionSelect";
+import RegionSelect from "../components/Selectors/RegionSelect";
 import RegionSelectedHeader from "../components/headers/RegionSelectedHeader";
 import RegionsGetFitBounds from "../components/Map/RegionsGetFitBounds";
 import LoadingOverlay from "../components/LoadingOverlay"

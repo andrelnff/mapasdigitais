@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from "react";
-import RegionChart from "../components/selectors/RegionChart";
+import React, {useState} from "react";
+import RegionChart from "../components/Selectors/RegionChart";
 import {StatisticData} from "../data/StatisticData";
-import ChartsTable from "../components/tables/ChartsTable";
+import ChartsTable from "../components/Tables/ChartsTable";
 
 function Statistics(){
     const [controlChart , setControlChart] = useState([true, true, true, true, true, true, true])

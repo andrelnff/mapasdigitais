@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import './ChartsTable.css'
 import ApexChart from 'react-apexcharts'
-import { StatisticData } from "../../data/StatisticData";
 
 function ChartsTable(props){
     const [labels, setLabels] = useState([])
@@ -30,7 +29,7 @@ function ChartsTable(props){
 
         GenerateData(props.controlChart, props.data)
 
-    }, [props.controlChart])   
+    }, [props.controlChart, props.data])   
 
     function GenerateData(array, data){
         let labels = []

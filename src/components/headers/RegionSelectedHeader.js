@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./RegionSelectedHeader.css"
 import "./Header.css"
 import "./DownButtons.css"
-import ToglleSelect from "../selectors/ToglleSelect";
+import ToglleSelect from "../Selectors/ToglleSelect";
 import Undo from "./Desfazer/Undo";
 import Streets from "./Ruas/Streets";
 import Themes from './Temas/Themes'

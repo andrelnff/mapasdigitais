@@ -15,7 +15,7 @@ function RegionDrawConfig(props){
         if(props.controlArrayConfig[0] === true ){
             DrawCurrentPosi()
         }
-    },[props.controlArrayConfig[0]], currentPosi)
+    },[props.controlArrayConfig], currentPosi)
 
 
     function DrawCurrentPosi(){
