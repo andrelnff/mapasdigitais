@@ -1,11 +1,11 @@
 import React,{useEffect, useState} from "react";
 import {useLoadScript} from '@react-google-maps/api'
 import Maps from '../components/Map/Maps'
-import RegionsInitVectors from "../components/Map/RegionsInitVectors";
 import RegionSelect from "../components/Selectors/RegionSelect";
 import RegionSelectedHeader from "../components/headers/RegionSelectedHeader";
-import RegionsGetFitBounds from "../components/Map/RegionsGetFitBounds";
 import LoadingOverlay from "../components/LoadingOverlay"
+import useRegionsInitVectors from "../hooks/useRegionsInitVectors";
+import useRegionsGetFitBounds from "../components/Map/useRegionsGetFitBounds";
 
 function Main(){
     const { isLoaded } = useLoadScript({
@@ -13,8 +13,8 @@ function Main(){
     });
     const [regionSelected, setRegionSelected] = useState(null);
     const [fitBounds, setFitBounds] = useState()
-    const [regionsInitVectors, setRegionsInitVectors] = useState(null);
-    const [regionsGetFitBounds, setRegionsGetFitBounds] = useState(null);
+    const regionsInitVectors = useRegionsInitVectors(); // Use o hook personalizado aqui
+    const regionsGetFitBounds = useRegionsGetFitBounds(); // Use o novo hook personalizado aqui
 
     const [controlArrayStreets, setControlArrayStreets] = useState([true,true,true,true,false,false])
     const [controlArrayConfig, setControlArrayConfig] = useState([false,false])
@@ -24,25 +24,21 @@ function Main(){
     const [fullData, setFullData] = useState([])
 
     useEffect(() => {
-        RegionsInitVectors().then(data => {
-            setRegionsInitVectors(data);
-        });
-    }, []);
-
-    useEffect(() => {
-        RegionsGetFitBounds().then(data => {
-            setRegionsGetFitBounds(data);
+        if (regionsGetFitBounds) {
             if(regionSelected === null){
-                setFitBounds(data.allRegionsBounds)
+                setFitBounds(regionsGetFitBounds.allRegionsBounds)
             }else{
                 console.log("entrou no else");
-                console.log(data.regionBounds[regionSelected]);
-                setFitBounds(data.regionBounds[regionSelected])
+                console.log(regionsGetFitBounds.regionBounds[regionSelected]);
+                setFitBounds(regionsGetFitBounds.regionBounds[regionSelected])
             }
-        });
-    }, [subClassesArray, regionId, regionSelected, setFitBounds]);
+        }
+    }, [subClassesArray, regionId, regionSelected, regionsGetFitBounds]);
 
     function handleSetRegion(index){
+        console.log("testando handle")
+        console.log(index)
+        console.log(regionsInitVectors[index])
         setRegionSelected(index)
         setRegionId(regionsInitVectors[index].id)
         setInLoadScreen(true)
@@ -62,7 +58,6 @@ function Main(){
         return <div>Loading...</div>
     }else{
         return(<>
-
 
             <LoadingOverlay Loading={inLoadScreen}/>
 
@@ -116,4 +111,4 @@ function Main(){
         </>)
     }
 }
-export default Main
+export default Main;

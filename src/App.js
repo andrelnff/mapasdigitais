@@ -28,7 +28,7 @@ function App() {
   };
 
   return (
-      <RegionProvider> {/* Adicione o RegionProvider aqui */}
+      <RegionProvider>
         <Router>
           <React.Fragment>
             {shouldRenderSidebar && <Sidebar />}
