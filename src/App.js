@@ -8,6 +8,7 @@ import Credits from "./pages/Credits";
 import LoginPage from "./pages/login/LoginPage";
 import { AuthContext } from "./context/AuthContext";
 import CadastroPage from "./pages/cadastro/CadastroPage";
+import {RegionProvider} from "./context/RegionContext";
 
 function App() {
   const { currentUser } = useContext(AuthContext);
@@ -27,20 +28,22 @@ function App() {
   };
 
   return (
-      <Router>
-        <React.Fragment>
-          {shouldRenderSidebar && <Sidebar />}
-          <Routes>
-            <Route path='login' element={<LoginPage />} />
-            <Route path='cadastro' element={<CadastroPage />} />
-            <Route path='wsmaps' element={<RequireAuth><Main /></RequireAuth>} />
-            <Route path='statistics' element={<RequireAuth><Statistics /></RequireAuth>} />
-            <Route path='about' element={<RequireAuth><About /></RequireAuth>} />
-            <Route path='credits' element={<RequireAuth><Credits /></RequireAuth>} />
-          </Routes>
-        </React.Fragment>
-      </Router>
-  );
+      <RegionProvider> {/* Adicione o RegionProvider aqui */}
+        <Router>
+          <React.Fragment>
+            {shouldRenderSidebar && <Sidebar />}
+            <Routes>
+              <Route path='login' element={<LoginPage />} />
+              <Route path='cadastro' element={<CadastroPage />} />
+              <Route path='wsmaps' element={<RequireAuth><Main /></RequireAuth>} />
+              <Route path='statistics' element={<RequireAuth><Statistics /></RequireAuth>} />
+              <Route path='about' element={<RequireAuth><About /></RequireAuth>} />
+              <Route path='credits' element={<RequireAuth><Credits /></RequireAuth>} />
+            </Routes>
+          </React.Fragment>
+        </Router>
+      </RegionProvider>
+);
 }
 
 export default App;
