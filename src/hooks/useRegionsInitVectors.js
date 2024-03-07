@@ -1,8 +1,8 @@
-import React, { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import {RegionContext} from "../context/RegionContext";
 
 function useRegionsInitVectors() {
-    const { regions } = useContext(RegionContext); // Use o useContext para acessar os dados de regions
+    const { regions } = useContext(RegionContext);
     const [data, setData] = useState({
         polygonPath: [],
         regionsMarkers: [],

@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from 'react';
-import {RegionContext} from "../../context/RegionContext"; // Importe o useContext, useEffect e useState
+import {RegionContext} from "../../context/RegionContext";
 
 function useRegionsGetFitBounds() {
-    const { regions } = useContext(RegionContext); // Use o useContext para acessar os dados de regions
+    const { regions } = useContext(RegionContext);
     const [bounds, setBounds] = useState({
         allRegionsBounds: [],
         regionBounds: [],

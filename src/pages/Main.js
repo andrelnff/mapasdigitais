@@ -13,8 +13,8 @@ function Main(){
     });
     const [regionSelected, setRegionSelected] = useState(null);
     const [fitBounds, setFitBounds] = useState()
-    const regionsInitVectors = useRegionsInitVectors(); // Use o hook personalizado aqui
-    const regionsGetFitBounds = useRegionsGetFitBounds(); // Use o novo hook personalizado aqui
+    const regionsInitVectors = useRegionsInitVectors()
+    const regionsGetFitBounds = useRegionsGetFitBounds();
 
     const [controlArrayStreets, setControlArrayStreets] = useState([true,true,true,true,false,false])
     const [controlArrayConfig, setControlArrayConfig] = useState([false,false])
@@ -36,9 +36,6 @@ function Main(){
     }, [subClassesArray, regionId, regionSelected, regionsGetFitBounds]);
 
     function handleSetRegion(index){
-        console.log("testando handle")
-        console.log(index)
-        console.log(regionsInitVectors[index])
         setRegionSelected(index)
         setRegionId(regionsInitVectors[index].id)
         setInLoadScreen(true)

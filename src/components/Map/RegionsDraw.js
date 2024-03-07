@@ -5,9 +5,7 @@ import {RegionContext} from "../../context/RegionContext";
 export default function RegionsDraw(props){
     const { regions } = useContext(RegionContext);
 
-    const region = regions[props.region]; // Use regions do contexto aqui
-
-
+    const region = regions[props.region];
 
     function DrawAreaLimits(){
         const regionLimits = []

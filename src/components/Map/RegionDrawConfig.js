@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'; // Importe o useContext
+import React, { useContext, useEffect, useState } from 'react';
 import { OverlayView } from "@react-google-maps/api";
 import './RegionDrawConfig.css'
 import trashSvg from "../../assets/svg/trash.svg"
@@ -9,7 +9,7 @@ function RegionDrawConfig(props){
     const [myPosi, setMyPosi] = useState()
     const [currentPosi, setCurrentPosi] = useState()
 
-    const { regions } = useContext(RegionContext); // Use o useContext para acessar os dados de regions
+    const { regions } = useContext(RegionContext);
 
     useEffect(() => {
         if(props.controlArrayConfig[0] === true ){
@@ -33,10 +33,10 @@ function RegionDrawConfig(props){
     function DrawAreaDisposal(){
         const disposalArray = []
 
-        if(regions[props.region].Disposal === null){ // Use regions do contexto aqui
+        if(regions[props.region].Disposal === null){
             console.log('não há dados')
         }else{
-            const Disposal = regions[props.region].Disposal // Use regions do contexto aqui
+            const Disposal = regions[props.region].Disposal
 
             Disposal.features.forEach(item => {
                 const point = item.geometry.coordinates
