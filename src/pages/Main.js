@@ -1,5 +1,4 @@
 import React, {useContext, useEffect, useState} from "react";
-import {useLoadScript} from '@react-google-maps/api'
 import Maps from '../components/Map/Maps'
 import RegionSelect from "../components/Selectors/RegionSelect";
 import RegionSelectedHeader from "../components/headers/RegionSelectedHeader";
@@ -8,14 +7,9 @@ import useRegionsInitVectors from "../hooks/useRegionsInitVectors";
 import useRegionsGetFitBounds from "../components/Map/useRegionsGetFitBounds";
 import {RegionContext} from "../context/RegionContext";
 
-
 function Main(){
-    const { isLoaded } = useLoadScript({
-        googleMapsApiKey: "AIzaSyBeGjaoNVJmeeWpYinPd89xSyyMvy1eWP0",
-    });
 
     const { regions } = useContext(RegionContext);
-
     const [regionSelected, setRegionSelected] = useState(null);
     const [fitBounds, setFitBounds] = useState()
     const regionsInitVectors = useRegionsInitVectors()
@@ -54,9 +48,7 @@ function Main(){
         setControlArrayStreets([true,true,true,true,false,false])
     }
 
-    if(!isLoaded){
-        return <div>Loading...</div>
-    }else{
+
         return(<>
 
             <LoadingOverlay Loading={inLoadScreen}/>
@@ -109,6 +101,5 @@ function Main(){
                 )}
 
         </>)
-    }
 }
 export default Main;

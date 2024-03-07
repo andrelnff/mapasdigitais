@@ -1,4 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react';
+import { useLoadScript } from '@react-google-maps/api';
 import {loadRegionData} from "../services/loadRegionData";
 import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
@@ -7,6 +8,9 @@ export const RegionContext = createContext();
 
 export const RegionProvider = (props) => {
     const [regions, setRegions] = useState(null);
+    const { isLoaded } = useLoadScript({
+        googleMapsApiKey: "AIzaSyBeGjaoNVJmeeWpYinPd89xSyyMvy1eWP0",
+    });
 
     useEffect(() => {
         async function loadData() {
@@ -19,7 +23,7 @@ export const RegionProvider = (props) => {
         loadData();
     }, []);
 
-    if (!regions) {
+    if (!isLoaded || !regions) {
         return (
             <Box sx={{
                 display: 'flex',
