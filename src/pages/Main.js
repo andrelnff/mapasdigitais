@@ -33,8 +33,6 @@ function Main(){
             if(regionSelected === null){
                 setFitBounds(regionsGetFitBounds.allRegionsBounds)
             }else{
-                console.log("entrou no else");
-                console.log(regionsGetFitBounds.regionBounds[regionSelected]);
                 setFitBounds(regionsGetFitBounds.regionBounds[regionSelected])
             }
         }
