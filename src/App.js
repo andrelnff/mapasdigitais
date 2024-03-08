@@ -25,22 +25,22 @@ function App() {
   };
 
   return (
-      <RegionProvider>
-        <Router>
-          <React.Fragment>
-            {shouldRenderSidebar && <Sidebar />}
-            <Routes>
-              <Route path='login' element={<LoginPage />} />
-              <Route path='cadastro' element={<CadastroPage />} />
-              <Route path='wsmaps' element={<RequireAuth><Main /></RequireAuth>} />
-              <Route path='statistics' element={<RequireAuth><Statistics /></RequireAuth>} />
-              <Route path='about' element={<RequireAuth><About /></RequireAuth>} />
-              <Route path='credits' element={<RequireAuth><Credits /></RequireAuth>} />
-            </Routes>
-          </React.Fragment>
-        </Router>
-      </RegionProvider>
-);
+    <RegionProvider>
+      <Router>
+        <React.Fragment>
+          {shouldRenderSidebar && <Sidebar />}
+          <Routes>
+            <Route path='/' element={<LoginPage />} />
+            <Route path='cadastro' element={<CadastroPage />} />
+            <Route path='wsmaps' element={<RequireAuth><Main /></RequireAuth>} />
+            <Route path='statistics' element={<RequireAuth><Statistics /></RequireAuth>} />
+            <Route path='about' element={<RequireAuth><About /></RequireAuth>} />
+            <Route path='credits' element={<RequireAuth><Credits /></RequireAuth>} />
+          </Routes>
+        </React.Fragment>
+      </Router>
+    </RegionProvider>
+  );
 }
 
 export default App;
