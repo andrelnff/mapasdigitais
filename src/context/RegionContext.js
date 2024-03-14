@@ -9,7 +9,7 @@ export const RegionContext = createContext();
 export const RegionProvider = (props) => {
     const [regions, setRegions] = useState(null);
     const { isLoaded } = useLoadScript({
-        googleMapsApiKey: "AIzaSyBeGjaoNVJmeeWpYinPd89xSyyMvy1eWP0",
+        googleMapsApiKey: "AIzaSyCM2PSZjLo_1d_GwDmQCefDCF64JS2NHw0",
     });
 
     useEffect(() => {
